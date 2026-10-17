@@ -1,4 +1,8 @@
 {
+  "loading": {
+    "preparingDeck": "Preparing the card deck...",
+    "shuffling": "Shuffling and getting questions ready"
+  },
   "nav": {
     "mainMenuAria": "Main navigation",
     "chooseDeck": "Decks",

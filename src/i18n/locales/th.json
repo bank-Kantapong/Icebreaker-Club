@@ -1,4 +1,8 @@
 {
+  "loading": {
+    "preparingDeck": "กำลังเตรียมสำรับไพ่...",
+    "shuffling": "กำลังสับไพ่และจัดเตรียมคำถาม"
+  },
   "nav": {
     "mainMenuAria": "เมนูหลัก",
     "chooseDeck": "เลือกกองไพ่",
