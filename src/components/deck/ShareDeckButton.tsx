@@ -70,7 +70,7 @@ export function ShareDeckButton({
       <button
         type="button"
         onClick={handleShare}
-        className={`tactile-btn inline-flex items-center justify-center gap-2 rounded-xl bg-[#FAF7F2] px-4 py-2.5 text-sm font-bold text-[#1C1917] cursor-pointer ${className}`}
+        className={`tactile-btn inline-flex items-center justify-center gap-2 rounded-xl bg-warm-bg px-4 py-2.5 text-sm font-bold text-ink-charcoal cursor-pointer ${className}`}
       >
         <span aria-hidden="true">↗</span>
         <span>{t.share.shareDeckButton}</span>
@@ -79,7 +79,7 @@ export function ShareDeckButton({
         <span
           role="status"
           aria-live="polite"
-          className="text-xs font-bold text-[#9F1D2C]"
+          className="text-xs font-bold text-accent-crimson"
         >
           {statusMessage}
         </span>

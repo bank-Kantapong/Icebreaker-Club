@@ -66,7 +66,7 @@ export function ShareCardStoryButton({
         type="button"
         onClick={handleSaveCardImage}
         disabled={isGenerating}
-        className={`tactile-btn inline-flex items-center justify-center gap-1.5 rounded-xl bg-[#FFF5F5] px-3.5 py-2 text-xs font-extrabold text-[#9F1D2C] cursor-pointer ${className}`}
+        className={`tactile-btn inline-flex items-center justify-center gap-1.5 rounded-xl bg-accent-crimson-soft px-3.5 py-2 text-xs font-extrabold text-accent-crimson cursor-pointer ${className}`}
       >
         <span aria-hidden="true">⬇</span>
         <span>
@@ -80,7 +80,7 @@ export function ShareCardStoryButton({
         <span
           role="status"
           aria-live="polite"
-          className="text-[11px] font-bold text-[#9F1D2C]"
+          className="text-[11px] font-bold text-accent-crimson"
         >
           {statusMessage}
         </span>

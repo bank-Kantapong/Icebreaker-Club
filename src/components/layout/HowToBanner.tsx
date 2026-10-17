@@ -15,18 +15,18 @@ export function HowToBanner() {
     <section className="mx-auto max-w-xl space-y-3.5 text-center">
       <div
         aria-label={t.home.howToAria}
-        className="mx-auto mb-6 inline-flex flex-wrap items-center justify-center gap-2 rounded-full border-2 border-[#1C1917] bg-[#FFFDF9] px-3.5 py-1.5 text-xs font-bold text-[#1C1917] shadow-[0_2px_0_0_#1C1917]"
+        className="mx-auto mb-6 inline-flex flex-wrap items-center justify-center gap-2 rounded-full border-2 border-border-ink bg-warm-card px-3.5 py-1.5 text-xs font-bold text-ink-charcoal shadow-[0_2px_0_0_var(--border-ink)]"
       >
         {steps.map((item, idx) => (
           <span key={item.step} className="inline-flex items-center gap-2">
             <span className="inline-flex items-center gap-1">
-              <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-[#9F1D2C] text-[10px] font-extrabold text-[#FFFDF9]">
+              <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-accent-crimson text-[10px] font-extrabold text-warm-card">
                 {item.step}
               </span>
               <span>{item.text}</span>
             </span>
             {idx < steps.length - 1 && (
-              <span aria-hidden="true" className="text-[#57534E]">
+              <span aria-hidden="true" className="text-ink-muted">
                 →
               </span>
             )}
@@ -34,7 +34,7 @@ export function HowToBanner() {
         ))}
       </div>
 
-      <h1 className="text-2xl font-extrabold tracking-tight text-[#1C1917] sm:text-4xl">
+      <h1 className="text-2xl font-extrabold tracking-tight text-ink-charcoal sm:text-4xl">
         {t.home.title}
       </h1>
     </section>

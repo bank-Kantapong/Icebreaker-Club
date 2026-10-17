@@ -12,21 +12,21 @@ export function EmptyDeckView({ onShowAllIntensities }: EmptyDeckViewProps) {
 
   return (
     <section className="animate-card-deal tactile-card space-y-4 rounded-[1.75rem] p-7 text-center">
-      <h1 className="text-xl font-extrabold text-[#1C1917]">
+      <h1 className="text-xl font-extrabold text-ink-charcoal">
         {t.emptyDeck.title}
       </h1>
-      <p className="text-sm text-[#57534E]">{t.emptyDeck.subtitle}</p>
+      <p className="text-sm text-ink-muted">{t.emptyDeck.subtitle}</p>
       <div className="flex flex-wrap justify-center gap-3 pt-2">
         <button
           type="button"
           onClick={onShowAllIntensities}
-          className="tactile-btn rounded-xl bg-[#9F1D2C] px-5 py-2.5 text-sm font-bold text-[#FFFDF9] cursor-pointer"
+          className="tactile-btn rounded-xl bg-accent-crimson px-5 py-2.5 text-sm font-bold text-warm-card cursor-pointer"
         >
           {t.emptyDeck.showAllButton}
         </button>
         <Link
           href="/"
-          className="tactile-btn rounded-xl bg-[#FAF7F2] px-5 py-2.5 text-sm font-bold text-[#1C1917]"
+          className="tactile-btn rounded-xl bg-warm-bg px-5 py-2.5 text-sm font-bold text-ink-charcoal"
         >
           {t.emptyDeck.backToDecksButton}
         </Link>

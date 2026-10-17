@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Outer rounded square container matching Header BRAND.shortName badge -->
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="#9F1D2C" stroke="#1C1917" stroke-width="2"/>
+  <!-- Text IBC with bold geometric font -->
+  <text x="16" y="20.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="900" letter-spacing="0.5" fill="#FFFDF9" text-anchor="middle">IBC</text>
+</svg>
+

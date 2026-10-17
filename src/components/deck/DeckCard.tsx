@@ -30,23 +30,23 @@ export function DeckCard({
       <Link
         href={`/play/${deck.slug}`}
         aria-label={`${t.home.startDeckAriaPrefix} ${primaryTitle}`}
-        className={`flex min-h-75 sm:min-h-80 flex-col items-center justify-between rounded-[1.35rem] border-2 border-[#1C1917] ${deck.accentBgClass} p-5 text-center transition-colors focus-visible:outline-offset-4`}
+        className={`flex min-h-75 sm:min-h-80 flex-col items-center justify-between rounded-[1.35rem] border-2 border-border-ink ${deck.accentBgClass} p-5 text-center transition-colors focus-visible:outline-offset-4`}
       >
         {/* Top Deck Corner Indices */}
         <div className="flex w-full items-center justify-between gap-2">
           <span
-            className={`rounded-full border border-[#1C1917] bg-[#FFFDF9] px-2.5 py-0.5 text-[10px] font-extrabold tracking-wider uppercase ${deck.accentTextClass}`}
+            className={`rounded-full border border-border-ink bg-warm-card px-2.5 py-0.5 text-[10px] font-extrabold tracking-wider uppercase ${deck.accentTextClass}`}
           >
             {secondaryBadge}
           </span>
-          <span className="rounded-full border border-[#1C1917] bg-[#FFFDF9] px-2.5 py-0.5 text-[11px] font-extrabold text-[#1C1917]">
+          <span className="rounded-full border border-border-ink bg-warm-card px-2.5 py-0.5 text-[11px] font-extrabold text-ink-charcoal">
             {cardCount} {t.home.cardUnit}
           </span>
         </div>
 
         {/* Center Cover Artwork Emblem */}
         <div className="my-3 flex flex-col items-center gap-3.5">
-          <div className="flex h-28 w-28 items-center justify-center rounded-full border-2 border-[#1C1917] bg-[#FFFDF9] p-5 shadow-[0_4px_0_0_#1C1917] transition-transform duration-300 group-hover:scale-105">
+          <div className="flex h-28 w-28 items-center justify-center rounded-full border-2 border-border-ink bg-warm-card p-5 shadow-[0_4px_0_0_var(--border-ink)] transition-transform duration-300 group-hover:scale-105">
             <div className="animate-float-gentle">
               <CardIllustration
                 illustrationId={deck.coverIllustration}
@@ -58,17 +58,17 @@ export function DeckCard({
           </div>
 
           <div className="space-y-1">
-            <h2 className="text-2xl font-extrabold tracking-tight text-[#1C1917]">
+            <h2 className="text-2xl font-extrabold tracking-tight text-ink-charcoal">
               {primaryTitle}
             </h2>
-            <p className="text-xs font-bold text-[#57534E]">
+            <p className="text-xs font-bold text-ink-muted">
               {pick(deck.audienceLabel)}
             </p>
           </div>
         </div>
 
         {/* Bottom Play Pill inside the Cover */}
-        <span className="tactile-btn inline-flex w-full items-center justify-center gap-1.5 rounded-xl bg-[#9F1D2C] px-4 py-2.5 text-sm font-extrabold text-[#FFFDF9]">
+        <span className="tactile-btn inline-flex w-full items-center justify-center gap-1.5 rounded-xl bg-accent-crimson px-4 py-2.5 text-sm font-extrabold text-warm-card">
           <span>{t.home.tapToDraw}</span>
           <span aria-hidden="true">→</span>
         </span>
