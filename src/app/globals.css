@@ -1,0 +1,360 @@
+@import "tailwindcss";
+
+:root {
+  --bg-warm: #FAF7F2;
+  --bg-card: #FFFDF9;
+  --ink-charcoal: #1C1917;
+  --ink-muted: #57534E;
+  --accent-crimson: #9F1D2C;
+  --accent-crimson-hover: #7F1D1D;
+  --border-ink: #1C1917;
+}
+
+html,
+body {
+  background-color: var(--bg-warm);
+  color: var(--ink-charcoal);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tactile physical card styling */
+.tactile-card {
+  background-color: var(--bg-card);
+  border: 2px solid var(--border-ink);
+  box-shadow: 0 5px 0 0 var(--border-ink);
+  translate: 0px;
+  rotate: 0deg;
+  scale: 1;
+  transition:
+    translate 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    rotate 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    scale 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.tactile-card-interactive:hover {
+  translate: 0px -6px;
+  box-shadow: 0 11px 0 0 var(--border-ink);
+}
+
+.tactile-card-interactive:active {
+  translate: 0px 1px;
+  scale: 0.985;
+  box-shadow: 0 2px 0 0 var(--border-ink);
+}
+
+/* Tactile button styling */
+.tactile-btn {
+  border: 2px solid var(--border-ink);
+  box-shadow: 0 3px 0 0 var(--border-ink);
+  translate: 0px;
+  rotate: 0deg;
+  scale: 1;
+  transition:
+    translate 0.18s cubic-bezier(0.22, 1, 0.36, 1),
+    scale 0.18s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 0.18s ease;
+}
+
+.tactile-btn:hover:not(:disabled) {
+  translate: 0px -2.5px;
+  box-shadow: 0 6px 0 0 var(--border-ink);
+}
+
+.tactile-btn:active:not(:disabled) {
+  translate: 0px 1px;
+  scale: 0.98;
+  box-shadow: 0 1px 0 0 var(--border-ink);
+}
+
+.tactile-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Physical Deck Box Stack on Home Page */
+.deck-box-stack {
+  position: relative;
+  isolation: isolate;
+}
+
+.deck-box-stack::before,
+.deck-box-stack::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 2rem;
+  border: 2px solid var(--border-ink);
+  pointer-events: none;
+  translate: 0px;
+  rotate: 0deg;
+  scale: 1;
+  transition:
+    translate 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+    rotate 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+    scale 0.36s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.deck-box-stack::before {
+  background-color: #F4EFE6;
+  z-index: -1;
+  translate: 6px 8px;
+  rotate: 1.8deg;
+}
+
+.deck-box-stack::after {
+  background-color: #EAE2D3;
+  z-index: -2;
+  translate: -6px 11px;
+  rotate: -2deg;
+}
+
+.deck-box-stack:hover::before {
+  translate: 12px 11px;
+  rotate: 3.8deg;
+}
+
+.deck-box-stack:hover::after {
+  translate: -12px 13px;
+  rotate: -3.8deg;
+}
+
+/* Physical Card Back Pattern (Subtle dot matrix) */
+.card-back-pattern {
+  background-color: #9F1D2C;
+  background-image: radial-gradient(rgba(255, 253, 249, 0.22) 1.25px, transparent 1.25px);
+  background-size: 14px 14px;
+}
+
+/* 3D Physical Deck & Draw-and-Flip Stage */
+.physical-deck-stage {
+  position: relative;
+  perspective: 1500px;
+  isolation: isolate;
+}
+
+.deck-under-card-1,
+.deck-under-card-2,
+.deck-under-card-3 {
+  position: absolute;
+  inset: 0;
+  border-radius: 2rem;
+  border: 2px solid var(--border-ink);
+  pointer-events: none;
+  translate: 0px;
+  rotate: 0deg;
+  scale: 1;
+  transition:
+    translate 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    rotate 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    scale 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.3s ease;
+}
+
+.deck-under-card-1 {
+  background-color: #F6F1E7;
+  z-index: -1;
+  translate: 6px 8px;
+  rotate: 1.6deg;
+  box-shadow: 0 3px 0 0 var(--border-ink);
+}
+
+.deck-under-card-2 {
+  background-color: #EFE8DA;
+  z-index: -2;
+  translate: -7px 13px;
+  rotate: -2.1deg;
+  box-shadow: 0 3px 0 0 var(--border-ink);
+}
+
+.deck-under-card-3 {
+  background-color: #E5DCCB;
+  z-index: -3;
+  translate: 4px 18px;
+  rotate: 0.9deg;
+  box-shadow: 0 3px 0 0 var(--border-ink);
+}
+
+.physical-deck-stage:hover .deck-under-card-1 {
+  translate: 10px 10px;
+  rotate: 2.8deg;
+}
+
+.physical-deck-stage:hover .deck-under-card-2 {
+  translate: -11px 15px;
+  rotate: -3.2deg;
+}
+
+/* Realistic 3D Draw & Flip Card Animation */
+@keyframes card-draw-and-flip-front {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 32px, -80px) scale(0.88) rotateZ(-4deg) rotateY(-180deg);
+  }
+  32% {
+    opacity: 1;
+    transform: translate3d(0, -26px, 70px) scale(1.04) rotateZ(2deg) rotateY(-95deg);
+  }
+  68% {
+    opacity: 1;
+    transform: translate3d(0, -6px, 25px) scale(1.015) rotateZ(-0.5deg) rotateY(8deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1) rotateZ(0deg) rotateY(0deg);
+  }
+}
+
+@keyframes card-draw-and-flip-back-shadow {
+  0% {
+    opacity: 0.95;
+    transform: translate3d(0, 20px, -40px) scale(0.92) rotateZ(-3deg) rotateY(0deg);
+  }
+  38% {
+    opacity: 0.7;
+    transform: translate3d(0, -24px, 50px) scale(1.03) rotateZ(2deg) rotateY(85deg);
+  }
+  55% {
+    opacity: 0;
+    transform: translate3d(0, -14px, 30px) scale(1.01) rotateZ(0deg) rotateY(140deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(1) rotateZ(0deg) rotateY(180deg);
+  }
+}
+
+@keyframes deck-ready-deal {
+  0% {
+    opacity: 0;
+    translate: 0px 24px;
+    scale: 0.94;
+    rotate: -1.5deg;
+  }
+  65% {
+    opacity: 1;
+    translate: 0px -3px;
+    scale: 1.01;
+    rotate: 0.4deg;
+  }
+  100% {
+    opacity: 1;
+    translate: 0px 0px;
+    scale: 1;
+    rotate: 0deg;
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    translate: 0px 0px;
+    rotate: 0deg;
+  }
+  50% {
+    translate: 0px -6px;
+    rotate: 1.5deg;
+  }
+}
+
+@keyframes pulse-ring {
+  0%, 100% {
+    scale: 1;
+    opacity: 0.65;
+  }
+  50% {
+    scale: 1.06;
+    opacity: 1;
+  }
+}
+
+.animate-draw-flip-front {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  animation: card-draw-and-flip-front 0.68s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-draw-flip-back {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  animation: card-draw-and-flip-back-shadow 0.68s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-card-deal {
+  translate: 0px 0px;
+  scale: 1;
+  rotate: 0deg;
+  animation: deck-ready-deal 0.48s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-float-gentle {
+  translate: 0px 0px;
+  rotate: 0deg;
+  animation: float-gentle 3.8s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  scale: 1;
+  animation: pulse-ring 2.6s ease-in-out infinite;
+}
+
+/* Stagger delays for deck cards */
+.stagger-1 {
+  animation-delay: 50ms;
+}
+.stagger-2 {
+  animation-delay: 130ms;
+}
+.stagger-3 {
+  animation-delay: 210ms;
+}
+
+/* Accessible focus outlines */
+:focus-visible {
+  outline: 3px solid var(--accent-crimson);
+  outline-offset: 3px;
+}
+
+/* Respect prefers-reduced-motion without jarring 0.01ms flash */
+@media (prefers-reduced-motion: reduce) {
+  .tactile-card,
+  .tactile-card-interactive:hover,
+  .tactile-card-interactive:active,
+  .tactile-btn,
+  .tactile-btn:hover:not(:disabled),
+  .tactile-btn:active:not(:disabled),
+  .deck-box-stack::before,
+  .deck-box-stack::after,
+  .deck-box-stack:hover::before,
+  .deck-box-stack:hover::after,
+  .deck-under-card-1,
+  .deck-under-card-2,
+  .deck-under-card-3 {
+    transition: none;
+    translate: 0px;
+    rotate: 0deg;
+    scale: 1;
+  }
+
+  .animate-draw-flip-front,
+  .animate-card-deal,
+  .animate-float-gentle,
+  .animate-pulse-subtle {
+    animation: none;
+    transform: none !important;
+    translate: 0px;
+    rotate: 0deg;
+    scale: 1;
+  }
+
+  .animate-draw-flip-back {
+    display: none;
+    animation: none;
+  }
+}

@@ -1,0 +1,611 @@
+[
+  {
+    "id": "gtk-01",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าต้องกินอาหารเมนูเดียวไปตลอดทั้งสัปดาห์นี้ คุณจะเลือกเมนูไหน เพราะอะไร?",
+      "en": "If you had to eat just one dish for the entire week, what would you pick and why?"
+    },
+    "followUp": {
+      "th": "มีร้านประจำหรือสูตรเด็ดที่อยากป้ายยาเพื่อนในวงไหม?",
+      "en": "Do you have a go-to spot or secret recipe to recommend to the table?"
+    },
+    "illustration": "noodle-bowl",
+    "intensity": 1,
+    "tags": {
+      "th": ["อาหาร", "ความชอบ"],
+      "en": ["Food", "Favorites"]
+    }
+  },
+  {
+    "id": "gtk-02",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "เช้าวันหยุดที่ไม่มีงานค้างเลย ภาพเช้าในฝันของคุณหน้าตาเป็นแบบไหน?",
+      "en": "On a free weekend morning with zero obligations, what does your ideal morning look like?"
+    },
+    "followUp": {
+      "th": "เป็นสายตื่นเช้ามาจิบกาแฟ หรือสายตื่นบ่ายทีเดียว?",
+      "en": "Are you an early-morning coffee person or a sleep-until-noon person?"
+    },
+    "illustration": "coffee-chat",
+    "intensity": 1,
+    "tags": {
+      "th": ["ไลฟ์สไตล์", "วันหยุด"],
+      "en": ["Lifestyle", "Weekend"]
+    }
+  },
+  {
+    "id": "gtk-03",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "เพลงหรือศิลปินไหนที่เปิดเมื่อไหร่ก็อารมณ์ดีขึ้นทันที?",
+      "en": "Which song or artist instantly puts you in a better mood whenever it plays?"
+    },
+    "followUp": {
+      "th": "เคยไปดูคอนเสิร์ตหรืออยากไปดูสดสักครั้งไหม?",
+      "en": "Have you seen them live in concert, or is it on your bucket list?"
+    },
+    "illustration": "headphones-music",
+    "intensity": 1,
+    "tags": {
+      "th": ["ดนตรี", "ความสุข"],
+      "en": ["Music", "Good Vibes"]
+    }
+  },
+  {
+    "id": "gtk-04",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าได้ตั๋วเครื่องบินฟรีไปที่ไหนก็ได้พรุ่งนี้เช้า จะเก็บกระเป๋าไปที่ไหน?",
+      "en": "If you got a free flight ticket to anywhere tomorrow morning, where would you pack your bags for?"
+    },
+    "followUp": {
+      "th": "ชอบเที่ยวแบบลุยธรรมชาติ เดินเมือง หรือนอนพักผ่อนนิ่ง ๆ มากกว่ากัน?",
+      "en": "Do you prefer nature adventures, city exploring, or pure relaxation?"
+    },
+    "illustration": "compass-journey",
+    "intensity": 1,
+    "tags": {
+      "th": ["ท่องเที่ยว", "ความฝัน"],
+      "en": ["Travel", "Dreams"]
+    }
+  },
+  {
+    "id": "gtk-05",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "เครื่องดื่มประจำตัวเวลาเดินเข้าร้านคาเฟ่คือเมนูอะไร สั่งหวานระดับไหน?",
+      "en": "What is your signature café drink order, and how sweet do you get it?"
+    },
+    "followUp": {
+      "th": "เคยลองเปลี่ยนไปสั่งเมนูแปลก ๆ แล้วเวิร์กหรือพังบ้างไหม?",
+      "en": "Have you ever tried ordering something wild on the menu—was it a hit or a miss?"
+    },
+    "illustration": "coffee-chat",
+    "intensity": 1,
+    "tags": {
+      "th": ["เครื่องดื่ม", "ไลฟ์สไตล์"],
+      "en": ["Drinks", "Lifestyle"]
+    }
+  },
+  {
+    "id": "gtk-06",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "งานอดิเรกหรือเรื่องไร้สาระอะไรที่คุณทำแล้วเพลินจนลืมดูเวลา?",
+      "en": "What hobby or random activity makes you completely lose track of time?"
+    },
+    "followUp": {
+      "th": "เริ่มต้นชอบสิ่งนี้ได้ยังไง?",
+      "en": "How did you first get into it?"
+    },
+    "illustration": "hobby-palette",
+    "intensity": 1,
+    "tags": {
+      "th": ["งานอดิเรก", "เวลาว่าง"],
+      "en": ["Hobbies", "Free Time"]
+    }
+  },
+  {
+    "id": "gtk-07",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "หนัง ซีรีส์ หรือการ์ตูนเรื่องไหนที่ดูซ้ำเกิน 2 รอบแล้วยังไม่เบื่อ?",
+      "en": "What movie, series, or anime have you rewatched more than twice without getting tired of it?"
+    },
+    "followUp": {
+      "th": "ถ้าให้เลือกเป็นตัวละครในเรื่องนั้น 1 วัน อยากเป็นใคร?",
+      "en": "If you could be one character from that story for a day, who would you choose?"
+    },
+    "illustration": "book-story",
+    "intensity": 1,
+    "tags": {
+      "th": ["หนังและซีรีส์", "ความชอบ"],
+      "en": ["Movies", "Favorites"]
+    }
+  },
+  {
+    "id": "gtk-08",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ของกินเล่นหรือขนมวัยเด็กชิ้นไหนที่เห็นทีไรก็ต้องซื้อติดมือกลับมา?",
+      "en": "What childhood snack do you still grab every time you spot it on a shelf?"
+    },
+    "followUp": {
+      "th": "เพื่อนในวงมีใครทันขนมชิ้นนี้เหมือนกันบ้าง?",
+      "en": "Does anyone else at the table remember this snack too?"
+    },
+    "illustration": "noodle-bowl",
+    "intensity": 1,
+    "tags": {
+      "th": ["วัยเด็ก", "อาหาร"],
+      "en": ["Childhood", "Snacks"]
+    }
+  },
+  {
+    "id": "gtk-09",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าเลือกมีพลังวิเศษเล็ก ๆ ที่ใช้ในชีวิตประจำวันได้ 1 อย่าง อยากมีพลังอะไร?",
+      "en": "If you could have one minor everyday superpower, what would it be?"
+    },
+    "followUp": {
+      "th": "เช่น รถไม่ติดตลอดกาล หรือกินเท่าไหร่ก็ไม่อ้วน?",
+      "en": "For example: never hitting traffic again, or eating anything without getting full?"
+    },
+    "illustration": "sparkles-star",
+    "intensity": 1,
+    "tags": {
+      "th": ["จินตนาการ", "ชวนคุย"],
+      "en": ["Imagination", "Fun"]
+    }
+  },
+  {
+    "id": "gtk-10",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ในมือถือตอนนี้ รูปถ่ายล่าสุดที่ไม่ได้เกี่ยวกับงานคือรูปอะไร เล่าที่มาให้ฟังหน่อย?",
+      "en": "What is the most recent non-work photo on your phone right now, and what's the story behind it?"
+    },
+    "followUp": {
+      "th": "ไม่ต้องเปิดรูปให้ดูก็ได้ แค่เล่าเบื้องหลังสนุก ๆ ก็พอ!",
+      "en": "No need to show the photo if you don't want to—just share the story!"
+    },
+    "illustration": "camera-memory",
+    "intensity": 1,
+    "tags": {
+      "th": ["ไลฟ์สไตล์", "ความทรงจำ"],
+      "en": ["Snapshots", "Memories"]
+    }
+  },
+  {
+    "id": "gtk-11",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "เวลาต้องทำงานหรืออ่านหนังสือ ชอบบรรยากาศเงียบกริบ หรือต้องมีเสียงเพลงคลอเบา ๆ?",
+      "en": "When focusing or reading, do you need total silence or background music?"
+    },
+    "followUp": {
+      "th": "มีสถานที่โปรดที่ไปนั่งทำงานแล้วมีสมาธิสุด ๆ ไหม?",
+      "en": "Do you have a favorite spot where you get into the best flow state?"
+    },
+    "illustration": "headphones-music",
+    "intensity": 1,
+    "tags": {
+      "th": ["นิสัยส่วนตัว", "ไลฟ์สไตล์"],
+      "en": ["Habits", "Focus"]
+    }
+  },
+  {
+    "id": "gtk-12",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "คำชมแบบไหนที่ได้รับแล้วรู้สึกใจฟูไปทั้งวัน?",
+      "en": "What kind of compliment makes your whole day brighter?"
+    },
+    "followUp": {
+      "th": "แล้วปกติคุณชอบชมคนอื่นเรื่องอะไรมากที่สุด?",
+      "en": "And what do you love complimenting other people on the most?"
+    },
+    "illustration": "happy-smile",
+    "intensity": 2,
+    "tags": {
+      "th": ["ความรู้สึก", "กำลังใจ"],
+      "en": ["Kindness", "Feelings"]
+    }
+  },
+  {
+    "id": "gtk-13",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ทริปเที่ยวครั้งไหนในชีวิตที่วุ่นวายหรือผิดแผนสุด ๆ แต่พอนึกถึงทีไรก็ขำทุกที?",
+      "en": "Which trip went completely off-plan or chaotic, yet still makes you laugh every time you look back?"
+    },
+    "followUp": {
+      "th": "ได้เรียนรู้อะไรจากความชุลมุนครั้งนั้นบ้าง?",
+      "en": "What did that chaotic adventure teach you?"
+    },
+    "illustration": "compass-journey",
+    "intensity": 2,
+    "tags": {
+      "th": ["ประสบการณ์", "ท่องเที่ยว"],
+      "en": ["Adventures", "Travel"]
+    }
+  },
+  {
+    "id": "gtk-14",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ตอนเด็ก ๆ เคยมีความฝันอยากทำอาชีพอะไรที่ต่างจากตอนนี้สุดขั้วไหม?",
+      "en": "As a kid, what dream job did you want that is completely different from what you do today?"
+    },
+    "followUp": {
+      "th": "อะไรคือจุดเปลี่ยนที่ทำให้เดินมาเส้นทางปัจจุบัน?",
+      "en": "What was the turning point that led you to your current path?"
+    },
+    "illustration": "clock-time",
+    "intensity": 2,
+    "tags": {
+      "th": ["วัยเด็ก", "เส้นทางชีวิต"],
+      "en": ["Childhood", "Life Path"]
+    }
+  },
+  {
+    "id": "gtk-15",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "อะไรคือสิ่งที่คนเพิ่งรู้จักมักเข้าใจผิดเกี่ยวกับตัวคุณบ่อยที่สุด?",
+      "en": "What is the most common first-impression misconception people have about you?"
+    },
+    "followUp": {
+      "th": "พอสนิทกันจริง ๆ แล้วคุณต่างจากภาพแรกยังไง?",
+      "en": "How are you different once people actually get to know you well?"
+    },
+    "illustration": "speech-bubbles",
+    "intensity": 2,
+    "tags": {
+      "th": ["ตัวตน", "มิตรภาพ"],
+      "en": ["Identity", "Friendship"]
+    }
+  },
+  {
+    "id": "gtk-16",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ของชิ้นไหนที่ตัดสินใจซื้อมาในรอบปีที่ผ่านมา แล้วรู้สึกว่าคุ้มค่าเงินที่สุด?",
+      "en": "What is the best purchase you've made over the past year that felt worth every penny?"
+    },
+    "followUp": {
+      "th": "มันช่วยให้ชีวิตประจำวันดีขึ้นยังไงบ้าง?",
+      "en": "How has it upgraded your daily routine?"
+    },
+    "illustration": "gift-box",
+    "intensity": 2,
+    "tags": {
+      "th": ["ไลฟ์สไตล์", "ป้ายยา"],
+      "en": ["Lifestyle", "Recommendations"]
+    }
+  },
+  {
+    "id": "gtk-17",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้ามีเวลาว่าง 1 เดือนเต็มโดยไม่ต้องกังวลเรื่องรายได้ อยากเอาเวลาไปลองฝึกทำอะไร?",
+      "en": "If you had one full month off with all expenses paid, what new skill or project would you dive into?"
+    },
+    "followUp": {
+      "th": "เคยเกือบได้เริ่มทำสิ่งนั้นแล้วหรือยัง?",
+      "en": "Have you ever come close to starting it?"
+    },
+    "illustration": "hobby-palette",
+    "intensity": 2,
+    "tags": {
+      "th": ["ความฝัน", "ทักษะใหม่"],
+      "en": ["Dreams", "New Skills"]
+    }
+  },
+  {
+    "id": "gtk-18",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "เวลาแบตหมดหรือเหนื่อยจากผู้คน คุณมีวิธีชาร์จพลังให้ตัวเองยังไง?",
+      "en": "When your social battery runs out, how do you recharge yourself?"
+    },
+    "followUp": {
+      "th": "ใช้เวลานานไหมกว่าจะกลับมาสดใสเหมือนเดิม?",
+      "en": "How long does it usually take before you feel refreshed again?"
+    },
+    "illustration": "home-cozy",
+    "intensity": 2,
+    "tags": {
+      "th": ["การดูแลตัวเอง", "ตัวตน"],
+      "en": ["Self-Care", "Energy"]
+    }
+  },
+  {
+    "id": "gtk-19",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "เรื่องบังเอิญที่เจ๋งที่สุดที่เคยเกิดขึ้นในชีวิตของคุณคือเรื่องอะไร?",
+      "en": "What is the coolest coincidence you've ever experienced in real life?"
+    },
+    "followUp": {
+      "th": "ตอนนั้นรู้สึกเหมือนอยู่ในหนังเลยไหม?",
+      "en": "Did it feel like a scene straight out of a movie?"
+    },
+    "illustration": "sparkles-star",
+    "intensity": 2,
+    "tags": {
+      "th": ["ประสบการณ์", "เรื่องเล่า"],
+      "en": ["Stories", "Serendipity"]
+    }
+  },
+  {
+    "id": "gtk-20",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าเปิดร้านเล็ก ๆ ของตัวเองได้ 1 ร้าน อยากเปิดร้านขายอะไร และตั้งชื่อร้านแนวไหน?",
+      "en": "If you could open a cozy little shop of your own, what would you sell and what would the vibe be?"
+    },
+    "followUp": {
+      "th": "บรรยากาศในร้านจะเป็นสไตล์ไหน?",
+      "en": "What kind of music or atmosphere would welcome guests inside?"
+    },
+    "illustration": "coffee-chat",
+    "intensity": 2,
+    "tags": {
+      "th": ["ความฝัน", "จินตนาการ"],
+      "en": ["Dreams", "Imagination"]
+    }
+  },
+  {
+    "id": "gtk-21",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "นิสัยเล็ก ๆ น้อย ๆ ของคนรอบตัวแบบไหนที่เห็นแล้วรู้สึกว่าคนนี้น่ารักจัง?",
+      "en": "What small everyday habit in other people immediately makes you think, 'that's so thoughtful'?"
+    },
+    "followUp": {
+      "th": "เช่น การจำรายละเอียดเล็ก ๆ หรือการพูดขอบคุณเสมอ?",
+      "en": "Like remembering tiny details or always saying thank you?"
+    },
+    "illustration": "high-five",
+    "intensity": 2,
+    "tags": {
+      "th": ["ความสัมพันธ์", "มุมมอง"],
+      "en": ["Connection", "Kindness"]
+    }
+  },
+  {
+    "id": "gtk-22",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าได้นั่งคุยกับตัวเองตอนอายุ 15 เป็นเวลา 5 นาที อยากบอกอะไรเขามากที่สุด?",
+      "en": "If you could sit down with your 15-year-old self for 5 minutes, what would you tell them?"
+    },
+    "followUp": {
+      "th": "คิดว่าตัวเองตอนอายุ 15 เห็นคุณในวันนี้แล้วจะภูมิใจเรื่องอะไร?",
+      "en": "What do you think your 15-year-old self would be proudest of seeing you today?"
+    },
+    "illustration": "clock-time",
+    "intensity": 3,
+    "tags": {
+      "th": ["การเติบโต", "มุมมองชีวิต"],
+      "en": ["Growth", "Reflection"]
+    }
+  },
+  {
+    "id": "gtk-23",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "คำแนะนำไหนที่เคยได้รับจากใครสักคน แล้วมันยังช่วยประคองใจคุณมาถึงทุกวันนี้?",
+      "en": "What piece of advice did someone once give you that still guides you today?"
+    },
+    "followUp": {
+      "th": "ใครเป็นคนพูดประโยคนั้นกับคุณ?",
+      "en": "Who shared those words with you?"
+    },
+    "illustration": "book-story",
+    "intensity": 3,
+    "tags": {
+      "th": ["แรงบันดาลใจ", "ข้อคิด"],
+      "en": ["Wisdom", "Inspiration"]
+    }
+  },
+  {
+    "id": "gtk-24",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ในช่วงปีที่ผ่านมา เรื่องอะไรที่คุณรู้สึกขอบคุณตัวเองที่สุดที่ไม่ถอดใจไปก่อน?",
+      "en": "Looking back over the past year, what are you most grateful to yourself for not giving up on?"
+    },
+    "followUp": {
+      "th": "อะไรคือสิ่งที่ช่วยให้คุณผ่านช่วงนั้นมาได้?",
+      "en": "What helped you push through that season?"
+    },
+    "illustration": "trophy-crown",
+    "intensity": 3,
+    "tags": {
+      "th": ["ความภูมิใจ", "การเติบโต"],
+      "en": ["Pride", "Resilience"]
+    }
+  },
+  {
+    "id": "gtk-25",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "สำหรับคุณในตอนนี้ คำว่า \"ชีวิตที่พอดีและมีความสุข\" หน้าตาเป็นแบบไหน?",
+      "en": "Right now in your life, what does a 'balanced and happy life' look like to you?"
+    },
+    "followUp": {
+      "th": "นิยามความสุขของคุณเปลี่ยนไปจากเมื่อ 5 ปีก่อนไหม?",
+      "en": "Has your definition of happiness changed compared to 5 years ago?"
+    },
+    "illustration": "home-cozy",
+    "intensity": 3,
+    "tags": {
+      "th": ["มุมมองชีวิต", "ความสุข"],
+      "en": ["Perspective", "Happiness"]
+    }
+  },
+  {
+    "id": "gtk-26",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "อะไรคือความกลัวหรือความกังวลในอดีต ที่พอผ่านมาได้แล้วพบว่าจริง ๆ เราก็เก่งเหมือนกันนะ?",
+      "en": "What past fear or worry did you overcome that made you realize how capable you truly are?"
+    },
+    "followUp": {
+      "th": "ถ้ามีเพื่อนกำลังเจอเรื่องคล้ายกัน อยากให้กำลังใจเขาว่าอะไร?",
+      "en": "What encouragement would you give a friend facing something similar right now?"
+    },
+    "illustration": "sparkles-star",
+    "intensity": 3,
+    "tags": {
+      "th": ["การเติบโต", "กำลังใจ"],
+      "en": ["Courage", "Growth"]
+    }
+  },
+  {
+    "id": "gtk-27",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าเขียนหนังสือเกี่ยวกับชีวิตตัวเอง 1 เล่ม บทปัจจุบันที่คุณกำลังใช้ชีวิตอยู่จะชื่อบทว่าอะไร?",
+      "en": "If your life were a book, what would be the title of the chapter you are living right now?"
+    },
+    "followUp": {
+      "th": "และอยากให้บทถัดไปเป็นเรื่องเกี่ยวกับอะไร?",
+      "en": "And what do you hope the next chapter will be about?"
+    },
+    "illustration": "book-story",
+    "intensity": 3,
+    "tags": {
+      "th": ["ตัวตน", "อนาคต"],
+      "en": ["Life Chapter", "Future"]
+    }
+  },
+  {
+    "id": "gtk-28",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ความใจดีของคนแปลกหน้าครั้งไหนที่คุณยังจำได้ไม่ลืมจนถึงทุกวันนี้?",
+      "en": "What act of kindness from a stranger do you still remember vividly to this day?"
+    },
+    "followUp": {
+      "th": "เหตุการณ์นั้นเปลี่ยนมุมมองของคุณต่อผู้คนรอบข้างไหม?",
+      "en": "Did that moment change how you view people around you?"
+    },
+    "illustration": "happy-smile",
+    "intensity": 3,
+    "tags": {
+      "th": ["ความทรงจำ", "ความอบอุ่น"],
+      "en": ["Kindness", "Memories"]
+    }
+  },
+  {
+    "id": "gtk-29",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "มีเรื่องอะไรที่คุณเคยยึดติดมาก ๆ แต่ตอนนี้ปล่อยวางและยิ้มให้กับมันได้แล้ว?",
+      "en": "What is something you used to stress over deeply, but can now let go of and smile about?"
+    },
+    "followUp": {
+      "th": "อะไรทำให้มุมมองต่อเรื่องนั้นเปลี่ยนไป?",
+      "en": "What shifted your perspective on it?"
+    },
+    "illustration": "moon-stars",
+    "intensity": 3,
+    "tags": {
+      "th": ["การปล่อยวาง", "มุมมองชีวิต"],
+      "en": ["Letting Go", "Peace"]
+    }
+  },
+  {
+    "id": "gtk-30",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าคนที่อยู่ในวงนี้จะต้องจดจำคุณด้วยประโยคเดียว อยากให้เขานึกถึงคุณว่าเป็นคนแบบไหน?",
+      "en": "If everyone at this table remembered you by a single sentence, how would you love to be described?"
+    },
+    "followUp": {
+      "th": "ให้เพื่อนในวงลองบอกความประทับใจแรกที่มีต่อคุณคนละ 1 ข้อ!",
+      "en": "Invite everyone around the table to share one warm impression of you!"
+    },
+    "illustration": "speech-bubbles",
+    "intensity": 3,
+    "tags": {
+      "th": ["มิตรภาพ", "ตัวตน"],
+      "en": ["Friendship", "Legacy"]
+    }
+  },
+  {
+    "id": "gtk-31",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "สถานที่ไหนในโลกที่พอคุณไปอยู่ตรงนั้นแล้วรู้สึกใจสงบและเป็นตัวเองที่สุด?",
+      "en": "Where in the world do you feel the most at peace and completely yourself?"
+    },
+    "followUp": {
+      "th": "ไปที่นั่นครั้งล่าสุดเมื่อไหร่?",
+      "en": "When was the last time you visited that place?"
+    },
+    "illustration": "compass-journey",
+    "intensity": 3,
+    "tags": {
+      "th": ["พื้นที่ปลอดภัย", "ความสุข"],
+      "en": ["Safe Space", "Serenity"]
+    }
+  },
+  {
+    "id": "gtk-32",
+    "deckId": "get-to-know",
+    "type": "question",
+    "prompt": {
+      "th": "อะไรคือสิ่งเล็ก ๆ ในวันนี้ที่ทำให้คุณรู้สึกว่า \"ดีจังที่ได้มาเจอกันวันนี้\"?",
+      "en": "What small moment today made you think, 'I'm really glad we got together today'?"
+    },
+    "followUp": {
+      "th": "ส่งยิ้มหรือแท็กมือกับคนข้าง ๆ หนึ่งที!",
+      "en": "Share a smile or high-five the person next to you!"
+    },
+    "illustration": "high-five",
+    "intensity": 3,
+    "tags": {
+      "th": ["มิตรภาพ", "ความประทับใจ"],
+      "en": ["Gratitude", "Connection"]
+    }
+  }
+]
+

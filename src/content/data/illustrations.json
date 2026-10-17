@@ -1,0 +1,219 @@
+[
+  {
+    "id": "coffee-chat",
+    "path": "/illustrations/coffee-chat.svg",
+    "titleTh": "แก้วกาแฟชวนคุย",
+    "titleEn": "Coffee Chat",
+    "altTh": "ภาพวาดลายเส้นแก้วกาแฟอุ่น ๆ กับไอน้ำ",
+    "altEn": "Line art of a warm coffee cup with steam",
+    "category": "general"
+  },
+  {
+    "id": "noodle-bowl",
+    "path": "/illustrations/noodle-bowl.svg",
+    "titleTh": "จานโปรดแสนอร่อย",
+    "titleEn": "Favorite Dish",
+    "altTh": "ภาพวาดลายเส้นชามอาหารและตะเกียบ",
+    "altEn": "Line art of a noodle bowl with chopsticks",
+    "category": "general"
+  },
+  {
+    "id": "sparkles-star",
+    "path": "/illustrations/sparkles-star.svg",
+    "titleTh": "ประกายความคิด",
+    "titleEn": "Sparkling Idea",
+    "altTh": "ภาพวาดลายเส้นดวงดาวและประกายไฟ",
+    "altEn": "Line art of stars and sparkles",
+    "category": "general"
+  },
+  {
+    "id": "happy-smile",
+    "path": "/illustrations/happy-smile.svg",
+    "titleTh": "รอยยิ้มเป็นมิตร",
+    "titleEn": "Friendly Smile",
+    "altTh": "ภาพวาดลายเส้นหน้ายิ้มสดใส",
+    "altEn": "Line art of a cheerful smiling face",
+    "category": "general"
+  },
+  {
+    "id": "speech-bubbles",
+    "path": "/illustrations/speech-bubbles.svg",
+    "titleTh": "บทสนทนาแลกเปลี่ยน",
+    "titleEn": "Conversation Bubbles",
+    "altTh": "ภาพวาดลายเส้นกล่องคำพูดสองกล่องซ้อนกัน",
+    "altEn": "Line art of two overlapping speech bubbles",
+    "category": "general"
+  },
+  {
+    "id": "high-five",
+    "path": "/illustrations/high-five.svg",
+    "titleTh": "แท็กมือเพื่อนซี้",
+    "titleEn": "High Five",
+    "altTh": "ภาพวาดลายเส้นมือแปะไฮไฟว์กัน",
+    "altEn": "Line art of two hands giving a high five",
+    "category": "general"
+  },
+  {
+    "id": "compass-journey",
+    "path": "/illustrations/compass-journey.svg",
+    "titleTh": "เข็มทิศการเดินทาง",
+    "titleEn": "Travel Compass",
+    "altTh": "ภาพวาดลายเส้นเข็มทิศนักเดินทาง",
+    "altEn": "Line art of a traveler compass",
+    "category": "general"
+  },
+  {
+    "id": "headphones-music",
+    "path": "/illustrations/headphones-music.svg",
+    "titleTh": "จังหวะดนตรีในใจ",
+    "titleEn": "Music & Headphones",
+    "altTh": "ภาพวาดลายเส้นหูฟังและตัวโน้ตเพลง",
+    "altEn": "Line art of headphones and musical notes",
+    "category": "general"
+  },
+  {
+    "id": "book-story",
+    "path": "/illustrations/book-story.svg",
+    "titleTh": "หนังสือเรื่องราวชีวิต",
+    "titleEn": "Life Story Book",
+    "altTh": "ภาพวาดลายเส้นหนังสือที่เปิดกางออก",
+    "altEn": "Line art of an open book",
+    "category": "general"
+  },
+  {
+    "id": "camera-memory",
+    "path": "/illustrations/camera-memory.svg",
+    "titleTh": "กล้องบันทึกความทรงจำ",
+    "titleEn": "Memory Camera",
+    "altTh": "ภาพวาดลายเส้นกล้องถ่ายรูปวินเทจ",
+    "altEn": "Line art of a vintage camera",
+    "category": "general"
+  },
+  {
+    "id": "clock-time",
+    "path": "/illustrations/clock-time.svg",
+    "titleTh": "เข็มนาฬิกาและกาลเวลา",
+    "titleEn": "Time & Clock",
+    "altTh": "ภาพวาดลายเส้นนาฬิกาเรือนกลม",
+    "altEn": "Line art of a classic alarm clock",
+    "category": "general"
+  },
+  {
+    "id": "hobby-palette",
+    "path": "/illustrations/hobby-palette.svg",
+    "titleTh": "จานสีงานอดิเรก",
+    "titleEn": "Hobby Palette",
+    "altTh": "ภาพวาดลายเส้นจานสีและพู่กัน",
+    "altEn": "Line art of an artist palette and brush",
+    "category": "general"
+  },
+  {
+    "id": "twin-hearts",
+    "path": "/illustrations/twin-hearts.svg",
+    "titleTh": "หัวใจสองดวง",
+    "titleEn": "Twin Hearts",
+    "altTh": "ภาพวาดลายเส้นหัวใจสองดวงคู่กัน",
+    "altEn": "Line art of two hearts side by side",
+    "category": "couples"
+  },
+  {
+    "id": "love-letter",
+    "path": "/illustrations/love-letter.svg",
+    "titleTh": "จดหมายเปิดใจ",
+    "titleEn": "Love Letter",
+    "altTh": "ภาพวาดลายเส้นซองจดหมายติดรูปหัวใจ",
+    "altEn": "Line art of an envelope sealed with a heart",
+    "category": "couples"
+  },
+  {
+    "id": "holding-hands",
+    "path": "/illustrations/holding-hands.svg",
+    "titleTh": "จับมือเคียงข้าง",
+    "titleEn": "Holding Hands",
+    "altTh": "ภาพวาดลายเส้นมือสองข้างกุมกัน",
+    "altEn": "Line art of two hands holding each other",
+    "category": "couples"
+  },
+  {
+    "id": "moon-stars",
+    "path": "/illustrations/moon-stars.svg",
+    "titleTh": "คืนเดือนหงาย",
+    "titleEn": "Moon & Stars",
+    "altTh": "ภาพวาดลายเส้นพระจันทร์เสี้ยวและดวงดาว",
+    "altEn": "Line art of a crescent moon and stars",
+    "category": "couples"
+  },
+  {
+    "id": "gift-box",
+    "path": "/illustrations/gift-box.svg",
+    "titleTh": "ของขวัญเซอร์ไพรส์",
+    "titleEn": "Surprise Gift",
+    "altTh": "ภาพวาดลายเส้นกล่องของขวัญผูกโบ",
+    "altEn": "Line art of a gift box with ribbon",
+    "category": "couples"
+  },
+  {
+    "id": "home-cozy",
+    "path": "/illustrations/home-cozy.svg",
+    "titleTh": "พื้นที่ปลอดภัยของเรา",
+    "titleEn": "Cozy Home",
+    "altTh": "ภาพวาดลายเส้นบ้านหลังน้อยแสนอบอุ่น",
+    "altEn": "Line art of a cozy little home",
+    "category": "couples"
+  },
+  {
+    "id": "cheers-glasses",
+    "path": "/illustrations/cheers-glasses.svg",
+    "titleTh": "ชนแก้วสังสรรค์",
+    "titleEn": "Cheers Glasses",
+    "altTh": "ภาพวาดลายเส้นแก้วน้ำสองใบชนกัน",
+    "altEn": "Line art of two clinking glasses",
+    "category": "party"
+  },
+  {
+    "id": "party-confetti",
+    "path": "/illustrations/party-confetti.svg",
+    "titleTh": "ปาร์ตี้สุดเหวี่ยง",
+    "titleEn": "Party Confetti",
+    "altTh": "ภาพวาดลายเส้นหมวกปาร์ตี้และสายรุ้ง",
+    "altEn": "Line art of a party hat and confetti",
+    "category": "party"
+  },
+  {
+    "id": "dice-luck",
+    "path": "/illustrations/dice-luck.svg",
+    "titleTh": "ลูกเต๋าเสี่ยงทาย",
+    "titleEn": "Lucky Dice",
+    "altTh": "ภาพวาดลายเส้นลูกเต๋าสองลูก",
+    "altEn": "Line art of a pair of dice",
+    "category": "party"
+  },
+  {
+    "id": "megaphone-vote",
+    "path": "/illustrations/megaphone-vote.svg",
+    "titleTh": "เปิดโหวตหน้าวง",
+    "titleEn": "Group Vote Megaphone",
+    "altTh": "ภาพวาดลายเส้นโทรโข่งกระจายเสียง",
+    "altEn": "Line art of a megaphone",
+    "category": "party"
+  },
+  {
+    "id": "trophy-crown",
+    "path": "/illustrations/trophy-crown.svg",
+    "titleTh": "แชมป์ประจำวง",
+    "titleEn": "Champion Trophy",
+    "altTh": "ภาพวาดลายเส้นถ้วยรางวัลและมงกุฎ",
+    "altEn": "Line art of a trophy cup",
+    "category": "party"
+  },
+  {
+    "id": "lightning-dare",
+    "path": "/illustrations/lightning-dare.svg",
+    "titleTh": "สายฟ้าท้าทาย",
+    "titleEn": "Lightning Dare",
+    "altTh": "ภาพวาดลายเส้นสายฟ้าทรงพลัง",
+    "altEn": "Line art of a lightning bolt",
+    "category": "party"
+  }
+]
+

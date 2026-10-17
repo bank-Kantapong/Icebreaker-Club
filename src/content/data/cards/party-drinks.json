@@ -1,0 +1,611 @@
+[
+  {
+    "id": "pty-01",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครมาถึงนัดวันนี้เป็นคนสุดท้าย ชนแก้วกับเพื่อนทางซ้ายแล้วจิบเบา ๆ 1 จิบ!",
+      "en": "Whoever arrived last today—clink glasses with the friend on your left and take 1 sip!"
+    },
+    "followUp": {
+      "th": "สายไม่ดื่ม: จิบน้ำเปล่าหรือน้ำผลไม้ แล้วเล่าข้ออ้างรถติดสุดครีเอทีฟ 1 ประโยค",
+      "en": "Non-alcoholic option: Sip water or juice and give your most creative traffic excuse!"
+    },
+    "illustration": "cheers-glasses",
+    "intensity": 1,
+    "tags": {
+      "th": ["อุ่นเครื่อง", "เช็กชื่อ"],
+      "en": ["Warm-Up", "Roll Call"]
+    }
+  },
+  {
+    "id": "pty-02",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครกำลังใส่เสื้อสีขาวหรือสีดำ ยกแก้วขึ้นมาชนกันกลางวงแล้วจิบพร้อมกัน!",
+      "en": "Anyone wearing a black or white top right now—raise your glass to the center and take a sip together!"
+    },
+    "followUp": {
+      "th": "ถ้าทั้งวงใส่สีขาวดำหมดเลย ให้ทุกคนเฮดัง ๆ แล้วจิบฉลองความใจตรงกัน",
+      "en": "If the whole table is wearing black or white, cheer out loud for matching outfits!"
+    },
+    "illustration": "party-confetti",
+    "intensity": 1,
+    "tags": {
+      "th": ["เช็กชื่อ", "ชนแก้ว"],
+      "en": ["Roll Call", "Cheers"]
+    }
+  },
+  {
+    "id": "pty-03",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "คนเปิดไพ่เลือกหมวดคำศัพท์ 1 หมวด (เช่น ยี่ห้อรถ, ชื่อผลไม้) วนพูดทีละคน ใครคิดไม่ออกใน 5 วินาที จิบ 1 ที!",
+      "en": "Pick 1 category (e.g., car brands, fruits) and go clockwise. Hesitate for 5 seconds or repeat an answer? Take 1 sip!"
+    },
+    "followUp": {
+      "th": "ห้ามพูดซ้ำคำที่เพื่อนพูดไปแล้วนะ!",
+      "en": "No repeating words that have already been said!"
+    },
+    "illustration": "clock-time",
+    "intensity": 1,
+    "tags": {
+      "th": ["มินิเกม", "ไหวพริบ"],
+      "en": ["Mini-Game", "Quick Thinking"]
+    }
+  },
+  {
+    "id": "pty-04",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครที่มีแบตเตอรี่มือถือเหลือน้อยที่สุดในวงตอนนี้ รับบทคนฮอตประจำโต๊ะ จิบ 1 ที!",
+      "en": "Whoever has the lowest phone battery percentage at the table right now takes 1 sip!"
+    },
+    "followUp": {
+      "th": "ถ้าไม่อยากดูแบต สามารถเลือกโพสท่าถ่ายรูปเท่ ๆ ให้เพื่อนดู 1 ท่าแทนได้",
+      "en": "Or strike a runway model pose for the group instead!"
+    },
+    "illustration": "lightning-dare",
+    "intensity": 1,
+    "tags": {
+      "th": ["เช็กชื่อ", "ขำขัน"],
+      "en": ["Battery Check", "Laughs"]
+    }
+  },
+  {
+    "id": "pty-05",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "คนทางขวาของคนเปิดไพ่ต้องพูดชมคนเปิดไพ่แบบจริงใจ 1 ประโยค ถ้าชมแล้วเขินทั้งคู่ ชนแก้วกัน 1 ที!",
+      "en": "The player to your right must give you 1 genuine compliment. If either of you blushes or laughs, clink glasses!"
+    },
+    "followUp": {
+      "th": "เพื่อนในวงช่วยตัดสินได้ว่าคำชมผ่านเกณฑ์ความจริงใจไหม!",
+      "en": "The rest of the table judges if the compliment was heartfelt!"
+    },
+    "illustration": "happy-smile",
+    "intensity": 1,
+    "tags": {
+      "th": ["มิตรภาพ", "ชนแก้ว"],
+      "en": ["Compliments", "Cheers"]
+    }
+  },
+  {
+    "id": "pty-06",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครที่วันนี้สั่งกาแฟหรือชาไปแล้วเกิน 1 แก้ว ยกมือสารภาพแล้วจิบน้ำหรือเครื่องดื่มในมือ 1 จิบ!",
+      "en": "Anyone who has already had more than 1 cup of coffee or tea today—raise your hand and take 1 sip!"
+    },
+    "followUp": {
+      "th": "สายคาเฟอีนตัวจริงประจำกลุ่มคือใครกันแน่?",
+      "en": "Who is the true caffeine champion of the group?"
+    },
+    "illustration": "coffee-chat",
+    "intensity": 1,
+    "tags": {
+      "th": ["ไลฟ์สไตล์", "อุ่นเครื่อง"],
+      "en": ["Caffeine", "Warm-Up"]
+    }
+  },
+  {
+    "id": "pty-07",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "เป่ายิ้งฉุบกับคนตรงข้าม! คนแพ้จิบ 1 ที หรือต้องเป็นคนรินน้ำ/เสิร์ฟขนมให้ผู้ชนะ 1 ครั้ง",
+      "en": "Play Rock-Paper-Scissors with the person across from you! The loser takes 1 sip or pours water/snacks for the winner."
+    },
+    "followUp": {
+      "th": "ถ้าออกเสมอติดต่อกัน 3 ครั้ง ให้ชนแก้วกันทั้งคู่เลย!",
+      "en": "If you tie 3 times in a row, both of you clink glasses and sip!"
+    },
+    "illustration": "high-five",
+    "intensity": 1,
+    "tags": {
+      "th": ["มินิเกม", "ดวลเดี่ยว"],
+      "en": ["1v1 Duel", "Mini-Game"]
+    }
+  },
+  {
+    "id": "pty-08",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครที่ถ่ายรูปอาหารก่อนกินในมื้อนี้ (หรือมื้อล่าสุด) ชูแก้วขึ้นแล้วจิบฉลองให้กับสายคอนเทนต์!",
+      "en": "Anyone who took a photo of their food before eating at this meal (or their last meal)—toast to the content creators!"
+    },
+    "followUp": {
+      "th": "ใครไม่เคยถ่ายเลยได้รับฉายาสายกินด่วนประจำโต๊ะ",
+      "en": "Those who never take food photos earn the 'Speed Eater' title!"
+    },
+    "illustration": "camera-memory",
+    "intensity": 1,
+    "tags": {
+      "th": ["สายคอนเทนต์", "อาหาร"],
+      "en": ["Camera Eats First", "Foodies"]
+    }
+  },
+  {
+    "id": "pty-09",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "คนเปิดไพ่พูดเรื่องจริง 2 ข้อ และเรื่องแต่งขำ ๆ 1 ข้อเกี่ยวกับตัวเอง ให้เพื่อนทายว่าข้อไหนหลอก!",
+      "en": "Share Two Truths and One Lie about yourself! Everyone guesses which statement is the lie."
+    },
+    "followUp": {
+      "th": "คนที่ทายผิดจิบเบา ๆ 1 ที ถ้าทายถูกยกวง คนเปิดไพ่เป็นฝ่ายจิบ!",
+      "en": "Wrong guessers take 1 sip; if everyone guesses right, you take the sip!"
+    },
+    "illustration": "speech-bubbles",
+    "intensity": 1,
+    "tags": {
+      "th": ["ทายใจ", "มินิเกม"],
+      "en": ["Two Truths One Lie", "Mini-Game"]
+    }
+  },
+  {
+    "id": "pty-10",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครเกิดในเดือนที่มี 31 วัน ชนแก้วกันรอบวงแล้วจิบ 1 ที!",
+      "en": "Anyone born in a month with 31 days—clink glasses across the table and take 1 sip!"
+    },
+    "followUp": {
+      "th": "เดือนที่มี 31 วันได้แก่ ม.ค., มี.ค., พ.ค., ก.ค., ส.ค., ต.ค., ธ.ค.",
+      "en": "31-day months: Jan, Mar, May, Jul, Aug, Oct, Dec!"
+    },
+    "illustration": "party-confetti",
+    "intensity": 1,
+    "tags": {
+      "th": ["เช็กชื่อ", "อุ่นเครื่อง"],
+      "en": ["Birthdays", "Cheers"]
+    }
+  },
+  {
+    "id": "pty-11",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "นับ 1-2-3 แล้วทุกคนชูนิ้วเลข 1 ถึง 5 พร้อมกัน ใครออกเลขไม่ซ้ำกับใครเลย รอด! คนที่ออกเลขซ้ำกันชนแก้วแล้วจิบ!",
+      "en": "On 1-2-3, everyone holds up 1 to 5 fingers! Unique numbers are safe; anyone matching numbers clinks glasses and sips!"
+    },
+    "followUp": {
+      "th": "ถ้าใจตรงกันออกเลขเดียวกันหมดทั้งวง ทุกคนปรบมือแล้วจิบฉลอง!",
+      "en": "If the entire table picks the exact same number, applaud and toast together!"
+    },
+    "illustration": "dice-luck",
+    "intensity": 1,
+    "tags": {
+      "th": ["วัดดวง", "มินิเกม"],
+      "en": ["Luck", "Group Game"]
+    }
+  },
+  {
+    "id": "pty-12",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! นับ 1-2-3 แล้วชี้ไปที่คนที่น่าจะ \"หลงทางแม้จะเปิด Google Maps อยู่ก็ตาม\" คนได้คะแนนสูงสุดจิบ 1 ที!",
+      "en": "Group Vote! On 1-2-3, point to the person most likely to get lost even while holding Google Maps. Most votes takes 1 sip!"
+    },
+    "followUp": {
+      "th": "ให้เจ้าตัวได้แก้ต่างหรือเล่าวีรกรรมหลงทาง 1 เรื่อง",
+      "en": "Let the winner defend themselves or share their funniest getting-lost story!"
+    },
+    "illustration": "compass-journey",
+    "intensity": 2,
+    "tags": {
+      "th": ["โหวตหน้าวง", "เผาเพื่อน"],
+      "en": ["Group Vote", "Friendly Roast"]
+    }
+  },
+  {
+    "id": "pty-13",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! ใครในวงที่เวลาบอกว่าจะถึงใน 5 นาที แปลว่าเพิ่งก้าวขาออกจากห้องน้ำ?",
+      "en": "Group Vote! Who at this table says 'I'll be there in 5 minutes' when they actually just stepped out of the shower?"
+    },
+    "followUp": {
+      "th": "ผู้ชนะผลโหวตชนแก้วกับคนที่มาเช้าที่สุดในวันนี้!",
+      "en": "The winner clinks glasses with whoever arrived earliest today!"
+    },
+    "illustration": "megaphone-vote",
+    "intensity": 2,
+    "tags": {
+      "th": ["โหวตหน้าวง", "ขำขัน"],
+      "en": ["Group Vote", "Laughs"]
+    }
+  },
+  {
+    "id": "pty-14",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! ถ้าพวกเราติดเกาะร้าง ใครน่าจะเอาชีวิตรอดเก่งที่สุด และใครน่าจะบ่นหิวเป็นคนแรก?",
+      "en": "Group Vote! If we were stranded on a desert island, who would survive the best—and who would complain about being hungry first?"
+    },
+    "followUp": {
+      "th": "ทั้งสองคนชนแก้วกันในฐานะคู่หูเอาชีวิตรอด!",
+      "en": "Both chosen players clink glasses as the ultimate survival duo!"
+    },
+    "illustration": "trophy-crown",
+    "intensity": 2,
+    "tags": {
+      "th": ["โหวตหน้าวง", "จินตนาการ"],
+      "en": ["Group Vote", "Island Survival"]
+    }
+  },
+  {
+    "id": "pty-15",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "เกมต่อคำ! คนเปิดไพ่พูดคำประสม 2 พยางค์ คนถัดไปต้องขึ้นต้นด้วยพยางค์ท้าย ใครสะดุดจิบ 1 ที!",
+      "en": "Word Chain! Start with a compound word (e.g., 'Sunlight' -> 'Lighthouse' -> 'Housework'). Whoever stumbles takes 1 sip!"
+    },
+    "followUp": {
+      "th": "หรือเปลี่ยนเป็นทำท่าหัวเราะแบบตัวร้ายในละคร 1 รอบแทนการจิบก็ได้!",
+      "en": "Or do your best dramatic movie-villain laugh instead of sipping!"
+    },
+    "illustration": "speech-bubbles",
+    "intensity": 2,
+    "tags": {
+      "th": ["มินิเกม", "ต่อคำ"],
+      "en": ["Word Chain", "Mini-Game"]
+    }
+  },
+  {
+    "id": "pty-16",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! ใครในกลุ่มที่เป็น \"สายป้ายยา\" ชวนเพื่อนเสียเงินซื้อของเก่งที่สุด?",
+      "en": "Group Vote! Who in the group is the ultimate influencer that convinces everyone else to buy things?"
+    },
+    "followUp": {
+      "th": "ผู้ชนะต้องแนะนำไอเทมเด็ดเพิ่มอีก 1 ชิ้นเดี๋ยวนี้เลย!",
+      "en": "The winner must recommend one must-buy item right now!"
+    },
+    "illustration": "gift-box",
+    "intensity": 2,
+    "tags": {
+      "th": ["โหวตหน้าวง", "สายช้อป"],
+      "en": ["Group Vote", "Shopping"]
+    }
+  },
+  {
+    "id": "pty-17",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "คนเปิดไพ่ฮัมทำนองเพลง 1 เพลงโดยใช้คำว่า ลา-ลา-ลา เท่านั้น ใครทายชื่อเพลงถูกคนแรก สั่งให้ใครจิบก็ได้ 1 ที!",
+      "en": "Hum a song using only 'La-La-La'! The first person to guess the song title picks anyone to take 1 sip!"
+    },
+    "followUp": {
+      "th": "ถ้าผ่านไป 15 วินาทีไม่มีใครทายถูกเลย ดีเจคนเปิดไพ่จิบเอง!",
+      "en": "If nobody guesses it within 15 seconds, the DJ takes the sip!"
+    },
+    "illustration": "headphones-music",
+    "intensity": 2,
+    "tags": {
+      "th": ["ทายเพลง", "มินิเกม"],
+      "en": ["Name That Tune", "Music"]
+    }
+  },
+  {
+    "id": "pty-18",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! ใครในวงที่เวลาไปเที่ยวด้วยกันแล้วรับบทตากล้องประจำทริปที่พึ่งพาได้มากที่สุด?",
+      "en": "Group Vote! Who is the MVP trip photographer that always gets everyone's best angles?"
+    },
+    "followUp": {
+      "th": "ทุกคนยกแก้วชนให้กับตากล้องผู้เสียสละประจำแก๊ง!",
+      "en": "Everyone raise a glass to thank the group's dedicated photographer!"
+    },
+    "illustration": "camera-memory",
+    "intensity": 2,
+    "tags": {
+      "th": ["โหวตหน้าวง", "ชื่นชมเพื่อน"],
+      "en": ["Group Vote", "MVP"]
+    }
+  },
+  {
+    "id": "pty-19",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "เกมห้ามพูดคำต้องห้าม! ในอีก 3 ใบถัดไป ห้ามใครพูดคำว่า \"ไม่\" และ \"เออ\" ใครเผลอพูดถูกจับได้ จิบเบา ๆ 1 ที!",
+      "en": "Forbidden Words! For the next 3 cards, nobody can say 'No' or 'Yeah'. Get caught saying it and take 1 sip!"
+    },
+    "followUp": {
+      "th": "ช่วยกันฟังให้ดี ใครจับได้เป็นคนแรกได้สิทธิ์ปรบมือสะใจ!",
+      "en": "Keep your ears sharp—catching a slip-up is half the fun!"
+    },
+    "illustration": "lightning-dare",
+    "intensity": 2,
+    "tags": {
+      "th": ["กติกาพิเศษ", "วัดสติ"],
+      "en": ["Taboo Words", "Rule Card"]
+    }
+  },
+  {
+    "id": "pty-20",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! ใครในวงที่เป็นที่ปรึกษาปัญหาชีวิตได้ดีที่สุด เวลาใครมีเรื่องต้องทักหาคนนี้ก่อน?",
+      "en": "Group Vote! Who at the table gives the best life advice and is the first person everyone texts in a crisis?"
+    },
+    "followUp": {
+      "th": "ให้ที่ปรึกษาประจำกลุ่มเลือกชนแก้วกับใครก็ได้ 1 คน!",
+      "en": "The group therapist picks 1 friend to clink glasses with!"
+    },
+    "illustration": "megaphone-vote",
+    "intensity": 2,
+    "tags": {
+      "th": ["โหวตหน้าวง", "มิตรภาพ"],
+      "en": ["Group Vote", "Friendship"]
+    }
+  },
+  {
+    "id": "pty-21",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "คนเปิดไพ่เลือกเพื่อน 1 คนมาแข่ง \"จ้องตาห้ามกะพริบและห้ามขำ\" ใครหลุดขำหรือกะพริบตาก่อน จิบ 1 ที!",
+      "en": "Pick 1 friend for a Staring Contest—no blinking and no laughing! First to crack takes 1 sip!"
+    },
+    "followUp": {
+      "th": "เพื่อนที่เหลือสามารถทำเสียงพากย์ตลก ๆ ปั่นสมาธิได้ แต่ห้ามโดนตัว!",
+      "en": "Everyone else can provide funny sound effects, but no touching!"
+    },
+    "illustration": "happy-smile",
+    "intensity": 2,
+    "tags": {
+      "th": ["ดวลเดี่ยว", "กลั้นขำ"],
+      "en": ["Staring Contest", "1v1"]
+    }
+  },
+  {
+    "id": "pty-22",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "ใครที่เคยกดสั่งของออนไลน์ตอนหลังเที่ยงคืนในเดือนนี้ ยกมือขึ้นแล้วจิบฉลองให้นักช้อปยามดึก!",
+      "en": "Anyone who has placed an online shopping order after midnight this month—raise your hand and sip!"
+    },
+    "followUp": {
+      "th": "เล่าให้เพื่อนฟังด้วยว่าชิ้นล่าสุดที่กดตอนดึกคืออะไร!",
+      "en": "Tell the group what your latest midnight impulse buy was!"
+    },
+    "illustration": "moon-stars",
+    "intensity": 2,
+    "tags": {
+      "th": ["เช็กชื่อ", "สายช้อป"],
+      "en": ["Late Night Shopping", "Roll Call"]
+    }
+  },
+  {
+    "id": "pty-23",
+    "deckId": "party-drinks",
+    "type": "wildcard",
+    "prompt": {
+      "th": "ภารกิจนักพากย์! คนเปิดไพ่ต้องพูดด้วยน้ำเสียงเหมือนผู้ประกาศข่าวทีวีไปจนกว่าจะถึงตาตัวเองรอบหน้า",
+      "en": "News Anchor Mode! Speak in your most serious TV news broadcaster voice until your next turn."
+    },
+    "followUp": {
+      "th": "ถ้าลืมทำเสียงข่าวหรือหลุดขำ จิบน้ำ 1 จิบ หรือโพสท่าผู้ประกาศข่าว 1 ท่า!",
+      "en": "Break character and you take 1 sip or strike a breaking-news pose!"
+    },
+    "illustration": "megaphone-vote",
+    "intensity": 3,
+    "tags": {
+      "th": ["ภารกิจตัวตึง", "การแสดง"],
+      "en": ["Roleplay", "Wildcard"]
+    }
+  },
+  {
+    "id": "pty-24",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "เกมใบ้คำด้วยท่าทาง! คนเปิดไพ่ใบ้ชื่อสัตว์หรืออาชีพ 1 อย่างโดยห้ามออกเสียงภายใน 15 วินาที ให้คนทางซ้ายทาย!",
+      "en": "Charades! Act out 1 animal or profession silently for 15 seconds for the player on your left to guess!"
+    },
+    "followUp": {
+      "th": "ถ้าทายถูก แท็กมือกันแล้วเลือกคนอื่นจิบ 1 ที ถ้าทายไม่ถูก จิบคู่กันเบา ๆ!",
+      "en": "Guess right: high-five and pick someone to sip. Miss it: both of you take a sip!"
+    },
+    "illustration": "sparkles-star",
+    "intensity": 3,
+    "tags": {
+      "th": ["ใบ้คำ", "ทีมเวิร์ก"],
+      "en": ["Charades", "Teamwork"]
+    }
+  },
+  {
+    "id": "pty-25",
+    "deckId": "party-drinks",
+    "type": "wildcard",
+    "prompt": {
+      "th": "การ์ดคู่หู (Buddy Card)! เลือกเพื่อน 1 คนเป็นคู่หูของคุณในอีก 3 ใบถัดไป ถ้าคนใดคนหนึ่งต้องจิบ อีกคนต้องทำเป็นเพื่อนด้วย!",
+      "en": "Buddy Card! Pick 1 partner for the next 3 cards—whenever one of you sips or does a mission, the other joins in!"
+    },
+    "followUp": {
+      "th": "ชนแก้วผูกพันธมิตรคู่หูกันก่อนเริ่มเลย 1 ที!",
+      "en": "Clink glasses with your new buddy to seal the alliance!"
+    },
+    "illustration": "high-five",
+    "intensity": 3,
+    "tags": {
+      "th": ["กติกาพิเศษ", "คู่หู"],
+      "en": ["Buddy System", "Wildcard"]
+    }
+  },
+  {
+    "id": "pty-26",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "แข่งพูดเร็วไม่พันลิ้น! พูดประโยค \"ยักษ์ใหญ่ไล่ยักษ์เล็ก ยักษ์เล็กไล่ยักษ์ใหญ่\" ติดกัน 3 รอบให้ชัดถ้อยชัดคำ!",
+      "en": "Tongue Twister Challenge! Say 'Red lorry, yellow lorry' (or the Thai giant tongue twister) 3 times fast without stumbling!"
+    },
+    "followUp": {
+      "th": "ถ้าพูดรอดไร้ที่ติ ทุกคนปรบมือและจิบให้คุณ ถ้าลิ้นพันกัน จิบเอง 1 ที!",
+      "en": "Nail it and everyone toasts to you; stumble and you take 1 sip!"
+    },
+    "illustration": "lightning-dare",
+    "intensity": 3,
+    "tags": {
+      "th": ["ภารกิจตัวตึง", "ลิ้นรัว"],
+      "en": ["Tongue Twister", "Challenge"]
+    }
+  },
+  {
+    "id": "pty-27",
+    "deckId": "party-drinks",
+    "type": "vote",
+    "prompt": {
+      "th": "โหวตพร้อมกัน! ถ้ากลุ่มเราตั้งวงดนตรี ใครเหมาะเป็นนักร้องนำสุดจี๊ด และใครเหมาะเป็นมือเต้นประจำวง?",
+      "en": "Group Vote! If our table started a band, who would be the lead singer and who would be the main dancer?"
+    },
+    "followUp": {
+      "th": "ทั้งสองคนลุกขึ้นโชว์ท่าจบคอนเสิร์ตสุดเท่คู่กัน 1 ท่า หรือชนแก้วกัน 1 ที!",
+      "en": "Both stars strike an epic concert finale pose together or clink glasses!"
+    },
+    "illustration": "headphones-music",
+    "intensity": 3,
+    "tags": {
+      "th": ["โหวตหน้าวง", "การแสดง"],
+      "en": ["Band Debut", "Group Vote"]
+    }
+  },
+  {
+    "id": "pty-28",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "เล่านิทานต่อประโยค! เริ่มประโยคแรก \"กาลครั้งหนึ่งที่ร้านหมูกระทะ...\" แล้ววนให้เพื่อนต่อคนละ 1 ประโยคจนครบวง",
+      "en": "One-Sentence Story! Start with 'Once upon a time at a midnight BBQ...' and go around adding 1 sentence each!"
+    },
+    "followUp": {
+      "th": "ใครทำให้เรื่องจบแบบหักมุมจนเพื่อนขำได้มากที่สุด ได้รับตำแหน่งนักเล่านิทานประจำโต๊ะ!",
+      "en": "Whoever delivers the funniest plot twist wins the Master Storyteller crown!"
+    },
+    "illustration": "book-story",
+    "intensity": 3,
+    "tags": {
+      "th": ["เล่านิทาน", "สร้างสรรค์"],
+      "en": ["Storytelling", "Creative"]
+    }
+  },
+  {
+    "id": "pty-29",
+    "deckId": "party-drinks",
+    "type": "wildcard",
+    "prompt": {
+      "th": "ราชาหน้าตาย! คนเปิดไพ่ทำท่าตลก ๆ 1 ท่า ทุกคนในวงต้องทำตามทันที ใครทำช้าที่สุดหรือหลุดขำก่อน จิบ 1 ที!",
+      "en": "Copycat King! Do 1 silly pose right now—everyone must copy you immediately. Last person or first to laugh sips!"
+    },
+    "followUp": {
+      "th": "เปลี่ยนจากการจิบเป็นคิดท่าตลกท่าต่อไปแทนได้!",
+      "en": "Or invent the next silly pose instead of sipping!"
+    },
+    "illustration": "trophy-crown",
+    "intensity": 3,
+    "tags": {
+      "th": ["ภารกิจตัวตึง", "วัดความไว"],
+      "en": ["Copycat", "Wildcard"]
+    }
+  },
+  {
+    "id": "pty-30",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "เกมทายใจเพื่อนซี้! คนเปิดไพ่ถามคำถามเกี่ยวกับตัวเอง 1 ข้อ (เช่น เมนูโปรด) ใครตอบถูกคนแรกรอด ที่เหลือจิบเบา ๆ!",
+      "en": "Trivia About Me! Ask 1 question about yourself (like your favorite comfort food). First right answer is safe!"
+    },
+    "followUp": {
+      "th": "ถ้าไม่มีใครตอบถูกเลย ให้คนเปิดไพ่เฉลยพร้อมจิบปลอบใจตัวเอง 1 ที!",
+      "en": "If nobody gets it right, reveal the answer and take a celebratory sip!"
+    },
+    "illustration": "dice-luck",
+    "intensity": 3,
+    "tags": {
+      "th": ["วัดใจเพื่อน", "มินิเกม"],
+      "en": ["Friend Trivia", "Mini-Game"]
+    }
+  },
+  {
+    "id": "pty-31",
+    "deckId": "party-drinks",
+    "type": "mission",
+    "prompt": {
+      "th": "คนเปิดไพ่ต้องพูดรีวิวอาหารหรือเครื่องดื่มที่อยู่ตรงหน้าด้วยลีลาเหมือนยูทูบเบอร์สายกิน 15 วินาที!",
+      "en": "Food Vlogger Challenge! Review the drink or snack in front of you like an enthusiastic YouTuber for 15 seconds!"
+    },
+    "followUp": {
+      "th": "ถ้าเพื่อน ๆ ให้คะแนนความน่ากินเกินครึ่งวง ทุกคนชนแก้วฉลอง!",
+      "en": "If more than half the table approves your review, everyone clinks glasses!"
+    },
+    "illustration": "noodle-bowl",
+    "intensity": 3,
+    "tags": {
+      "th": ["การแสดง", "สายกิน"],
+      "en": ["Food Review", "Roleplay"]
+    }
+  },
+  {
+    "id": "pty-32",
+    "deckId": "party-drinks",
+    "type": "wildcard",
+    "prompt": {
+      "th": "การ์ดชนแก้วรวมพล! ทุกคนยกแก้วมารวมกันตรงกลาง บอกสิ่งดี ๆ 1 อย่างของค่ำคืนนี้ แล้วชนแก้วพร้อมกัน!",
+      "en": "Grand Finale Toast! Everyone bring your glasses to the center, share 1 highlight of the night, and cheers together!"
+    },
+    "followUp": {
+      "th": "ถ่ายรูปแก้วชนกันเก็บไว้เป็นที่ระลึกประจำทริป/ปาร์ตี้วันนี้ได้เลย!",
+      "en": "Snap a group cheers photo to remember tonight!"
+    },
+    "illustration": "cheers-glasses",
+    "intensity": 3,
+    "tags": {
+      "th": ["ชนแก้วรวมพล", "ความประทับใจ"],
+      "en": ["Group Toast", "Memories"]
+    }
+  }
+]
+

@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "mainMenuAria": "Main navigation",
+    "chooseDeck": "Decks",
+    "backToHome": "Back to Home (All Decks)",
+    "languageToggleAria": "Switch language"
+  },
+  "home": {
+    "title": "Pick a Deck & Spark the Conversation",
+    "howToAria": "How to play in 3 easy steps",
+    "step1": "Pick a Deck",
+    "step2": "Tap to Draw",
+    "step3": "Chat or Skip Anytime",
+    "decksSectionAria": "Choose a card deck",
+    "startDeckAriaPrefix": "Start playing deck",
+    "cardUnit": "cards",
+    "tapToDraw": "Tap to Draw"
+  },
+  "deckDetail": {
+    "totalCards": "Total",
+    "playersPrefix": "Players",
+    "startNowAllLevels": "Play Now (All Levels)",
+    "setupTitle": "Customize Your Round",
+    "setupSubtitle": "Choose the intensity level of questions or missions that fits your group's vibe right now.",
+    "readyToPlay": "Ready:",
+    "intensityGroupAria": "Select card intensity level",
+    "allIntensitiesLabel": "All Levels Mixed (Recommended)",
+    "allIntensitiesDesc": "A balanced shuffle from warm-up icebreakers to highlight prompts and missions.",
+    "shuffleNote": "Cards are freshly shuffled every round with zero repeats within the same session.",
+    "startDeckWithCount": "Start Playing",
+    "howToPlayPrefix": "How to Play",
+    "etiquetteLabel": "House Rules: "
+  },
+  "game": {
+    "roundPrefix": "Round",
+    "cardBackTapHint": "Tap Deck to Draw",
+    "cardBackTitle": "Tap the Card to Draw",
+    "revealCard": "Reveal This Card",
+    "skipCard": "Skip This Card",
+    "nextCard": "Next Card →",
+    "finishRound": "Finish Round →",
+    "reshuffleRound": "↻ Reshuffle & New Round",
+    "followUpLabel": "Follow-up: ",
+    "cardTypes": {
+      "question": "Question",
+      "mission": "Group Mission",
+      "vote": "Group Vote",
+      "wildcard": "Wildcard Rule"
+    },
+    "intensities": {
+      "1": "Level 1 • Chill",
+      "2": "Level 2 • Deeper",
+      "3": "Level 3 • Bold"
+    }
+  },
+  "roundComplete": {
+    "badgePrefix": "Completed all cards in Round",
+    "badgeSuffix": "!",
+    "titlePrefix": "Finished",
+    "titleSuffix": "Deck",
+    "summaryPrefix": "Cards played together:",
+    "skippedPrefix": "skipped",
+    "playAgainButton": "Shuffle & Play Again",
+    "chooseAnotherDeck": "Choose Another Deck"
+  },
+  "emptyDeck": {
+    "title": "No cards found for this filter",
+    "subtitle": "Try showing all intensity levels or pick another deck.",
+    "showAllButton": "Show All Levels",
+    "backToDecksButton": "Back to Decks"
+  },
+  "share": {
+    "shareDeckButton": "Share This Deck",
+    "shareDeckTitlePrefix": "Let's play",
+    "shareDeckTextPrefix": "Come play the",
+    "shareDeckTextSuffix": "card deck together! Free on the web.",
+    "shareDeckSuccess": "Deck shared!",
+    "copiedLink": "Deck link copied!",
+    "fallbackLinkPrefix": "Share link:",
+    "saveCardImageButton": "Save Card Image",
+    "generatingStory": "Creating card image...",
+    "downloadStorySuccess": "Card image saved!",
+    "shareStoryError": "Could not generate image. Please try again.",
+    "storyWatermarkCta": "Join the conversation at"
+  },
+  "notFound": {
+    "badge": "404 • Card Not Found",
+    "title": "Deck or Page Not Found",
+    "subtitle": "The link might be mistyped or this deck doesn't exist. Head back to the home page to pick a deck.",
+    "backHome": "Back to Home"
+  }
+}

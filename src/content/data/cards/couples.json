@@ -1,0 +1,611 @@
+[
+  {
+    "id": "cpl-01",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "จำได้ไหมว่าครั้งแรกที่เจอกัน คุณแอบคิดในใจว่าคนตรงหน้าเป็นคนยังไง?",
+      "en": "Do you remember the very first time we met—what did you secretly think about me?"
+    },
+    "followUp": {
+      "th": "แล้วตอนนี้ความคิดนั้นเปลี่ยนไปเยอะไหม?",
+      "en": "Has that first impression changed a lot since then?"
+    },
+    "illustration": "twin-hearts",
+    "intensity": 1,
+    "tags": {
+      "th": ["ความประทับใจแรก", "ความทรงจำ"],
+      "en": ["First Impression", "Memories"]
+    }
+  },
+  {
+    "id": "cpl-02",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เมนูอาหารจานไหนที่พอกินทีไรก็จะนึกถึงอีกฝ่ายขึ้นมาทันที?",
+      "en": "Which dish or meal immediately reminds you of me every time you see it?"
+    },
+    "followUp": {
+      "th": "มื้อไหนที่เราไปกินด้วยกันแล้วประทับใจที่สุด?",
+      "en": "What is the most memorable meal we've ever shared together?"
+    },
+    "illustration": "noodle-bowl",
+    "intensity": 1,
+    "tags": {
+      "th": ["อาหาร", "โมเมนต์น่ารัก"],
+      "en": ["Food", "Sweet Moments"]
+    }
+  },
+  {
+    "id": "cpl-03",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าพรุ่งนี้เราว่างตรงกันทั้งวันโดยไม่มีภาระอะไรเลย อยากชวนกันไปทำอะไรตั้งแต่เช้าจรดค่ำ?",
+      "en": "If we both had tomorrow completely free with zero responsibilities, how would you plan our day?"
+    },
+    "followUp": {
+      "th": "เลือกมาได้ทั้งแบบนอนอยู่บ้านชิลล์ ๆ หรือออกไปตะลอนข้างนอก!",
+      "en": "Anything goes—from a cozy stay-at-home day to a spontaneous road trip!"
+    },
+    "illustration": "coffee-chat",
+    "intensity": 1,
+    "tags": {
+      "th": ["เดตในฝัน", "เวลาคุณภาพ"],
+      "en": ["Dream Date", "Quality Time"]
+    }
+  },
+  {
+    "id": "cpl-04",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "นิสัยเล็ก ๆ น้อย ๆ ข้อไหนของอีกฝ่ายที่คุณแอบมองทีไรก็เผลอยิ้มออกมาทุกที?",
+      "en": "What is one tiny habit or quirk of mine that always makes you smile when you notice it?"
+    },
+    "followUp": {
+      "th": "เจ้าตัวรู้ตัวมาก่อนไหมว่ามีมุมนี้?",
+      "en": "Did I even realize I had that habit?"
+    },
+    "illustration": "happy-smile",
+    "intensity": 1,
+    "tags": {
+      "th": ["ความน่ารัก", "ความใส่ใจ"],
+      "en": ["Quirks", "Affection"]
+    }
+  },
+  {
+    "id": "cpl-05",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เพลงไหนที่ฟังแล้วรู้สึกว่าเป็น \"เพลงประจำคู่เรา\" มากที่สุด?",
+      "en": "Which song feels the most like 'our song' whenever it comes on?"
+    },
+    "followUp": {
+      "th": "ถ้าต้องเพิ่มอีก 1 เพลงเข้าเพลย์ลิสต์ของเราวันนี้ จะเลือกเพลงอะไร?",
+      "en": "If we added one more track to our couple playlist today, what would it be?"
+    },
+    "illustration": "headphones-music",
+    "intensity": 1,
+    "tags": {
+      "th": ["ดนตรี", "ความโรแมนติก"],
+      "en": ["Music", "Romance"]
+    }
+  },
+  {
+    "id": "cpl-06",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "รูปถ่ายคู่รูปไหนในมือถือที่คุณชอบที่สุด เพราะอะไรถึงชอบรูปนั้น?",
+      "en": "Which photo of the two of us is your absolute favorite, and why?"
+    },
+    "followUp": {
+      "th": "บรรยากาศตอนถ่ายรูปนั้นเกิดอะไรขึ้นบ้าง?",
+      "en": "What was happening right before we took that picture?"
+    },
+    "illustration": "camera-memory",
+    "intensity": 1,
+    "tags": {
+      "th": ["ความทรงจำ", "ภาพถ่าย"],
+      "en": ["Photos", "Memories"]
+    }
+  },
+  {
+    "id": "cpl-07",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าเราสองคนต้องลงแข่งรายการเกมโชว์คู่กัน คิดว่าแข่งเรื่องอะไรที่เราจะชนะขาดลอย?",
+      "en": "If the two of us competed on a game show together, what challenge would we easily win?"
+    },
+    "followUp": {
+      "th": "ใครจะเป็นสายวางแผน และใครจะเป็นสายลุย?",
+      "en": "Who would be the strategist and who would be the action hero?"
+    },
+    "illustration": "trophy-crown",
+    "intensity": 1,
+    "tags": {
+      "th": ["ทีมเวิร์ก", "ความสนุก"],
+      "en": ["Teamwork", "Fun"]
+    }
+  },
+  {
+    "id": "cpl-08",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ของขวัญหรือเซอร์ไพรส์เล็ก ๆ ชิ้นไหนจากอีกฝ่ายที่คุณยังเก็บไว้หรือจำได้ดีที่สุด?",
+      "en": "What small gift or surprise from me do you still treasure or remember the most?"
+    },
+    "followUp": {
+      "th": "ตอนได้รับรู้สึกยังไงบ้าง?",
+      "en": "How did you feel in that moment?"
+    },
+    "illustration": "gift-box",
+    "intensity": 1,
+    "tags": {
+      "th": ["ความใส่ใจ", "ความทรงจำ"],
+      "en": ["Gifts", "Thoughtfulness"]
+    }
+  },
+  {
+    "id": "cpl-09",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เวลาไปเที่ยวด้วยกัน ชอบโมเมนต์ตอนกำลังเดินทางบนรถ หรือตอนถึงที่พักแล้วมากกว่ากัน?",
+      "en": "When we travel together, do you love the road-trip journey or arriving at the destination more?"
+    },
+    "followUp": {
+      "th": "ทริปหน้าอยากชวนกันไปที่ไหนเป็นพิเศษไหม?",
+      "en": "Where should we go for our next getaway?"
+    },
+    "illustration": "compass-journey",
+    "intensity": 1,
+    "tags": {
+      "th": ["ท่องเที่ยว", "ไลฟ์สไตล์"],
+      "en": ["Travel", "Getaway"]
+    }
+  },
+  {
+    "id": "cpl-10",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "คำพูดติดปากหรือมุกตลกส่วนตัว (Inside Joke) อันไหนที่มีแค่เราสองคนที่เก็ต?",
+      "en": "What is our funniest inside joke that nobody else would understand?"
+    },
+    "followUp": {
+      "th": "จุดเริ่มต้นของมุกนี้มาจากเหตุการณ์ไหน?",
+      "en": "How did that inside joke start in the first place?"
+    },
+    "illustration": "speech-bubbles",
+    "intensity": 1,
+    "tags": {
+      "th": ["อารมณ์ขัน", "ความผูกพัน"],
+      "en": ["Inside Jokes", "Bonding"]
+    }
+  },
+  {
+    "id": "cpl-11",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าให้ตั้งฉายาใหม่ให้อีกฝ่ายในวันนี้ที่ตรงกับความน่ารักของเขา จะตั้งว่าอะไร?",
+      "en": "If you had to give me a brand-new cute nickname today, what would it be?"
+    },
+    "followUp": {
+      "th": "อธิบายเหตุผลประกอบฉายานี้ให้ฟังด้วยนะ!",
+      "en": "Tell me the story behind that nickname!"
+    },
+    "illustration": "sparkles-star",
+    "intensity": 1,
+    "tags": {
+      "th": ["ความน่ารัก", "ชวนยิ้ม"],
+      "en": ["Nicknames", "Playful"]
+    }
+  },
+  {
+    "id": "cpl-12",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เวลาที่คุณเหนื่อยมาก ๆ จากข้างนอก การกระทำแบบไหนของอีกฝ่ายที่ช่วยฮีลใจคุณได้ดีที่สุด?",
+      "en": "After a long, exhausting day, what is something I do that comforts you the best?"
+    },
+    "followUp": {
+      "th": "ชอบให้กอดเงียบ ๆ รับฟัง หรือพาไปหาของอร่อยกิน?",
+      "en": "Do you prefer a quiet hug, someone to listen, or going out for comfort food?"
+    },
+    "illustration": "holding-hands",
+    "intensity": 2,
+    "tags": {
+      "th": ["การซัพพอร์ต", "ภาษารัก"],
+      "en": ["Support", "Care"]
+    }
+  },
+  {
+    "id": "cpl-13",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "โมเมนต์ไหนที่ทำให้คุณรู้สึกว่า \"คนนี้แหละที่อยู่ด้วยแล้วสบายใจเป็นตัวเองได้เต็มที่\"?",
+      "en": "What moment made you realize, 'I can be 100% myself with this person'?"
+    },
+    "followUp": {
+      "th": "ตอนนั้นเราทำอะไรกันอยู่?",
+      "en": "What were we doing when you felt that?"
+    },
+    "illustration": "home-cozy",
+    "intensity": 2,
+    "tags": {
+      "th": ["พื้นที่ปลอดภัย", "ความผูกพัน"],
+      "en": ["Safe Space", "Comfort"]
+    }
+  },
+  {
+    "id": "cpl-14",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "คุณรู้สึกถูกรักมากที่สุดเมื่ออีกฝ่ายแสดงออกแบบไหน (คำพูด เวลาคุณภาพ ของขวัญ การช่วยเหลือ หรือการสัมผัส)?",
+      "en": "When do you feel most loved—words, quality time, thoughtful gifts, helpful acts, or physical touch?"
+    },
+    "followUp": {
+      "th": "แล้วคุณคิดว่าตัวเองถนัดแสดงความรักด้วยวิธีไหนมากที่สุด?",
+      "en": "And which love language comes most naturally to you when showing love?"
+    },
+    "illustration": "love-letter",
+    "intensity": 2,
+    "tags": {
+      "th": ["ภาษารัก", "ความเข้าใจ"],
+      "en": ["Love Language", "Understanding"]
+    }
+  },
+  {
+    "id": "cpl-15",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "มีงานอดิเรกหรือกิจกรรมใหม่ ๆ อะไรที่เราสองคนยังไม่เคยทำด้วยกัน แต่อยากลองไปทำด้วยกันสักครั้ง?",
+      "en": "What new hobby or activity have we never tried together that you'd love for us to try?"
+    },
+    "followUp": {
+      "th": "เช่น เรียนปั้นเซรามิก ทำขนม หรือวิ่งมาราธอนสั้น ๆ?",
+      "en": "Like pottery class, baking together, or a weekend mini-marathon?"
+    },
+    "illustration": "hobby-palette",
+    "intensity": 2,
+    "tags": {
+      "th": ["กิจกรรมคู่", "ประสบการณ์ใหม่"],
+      "en": ["Activities", "New Experiences"]
+    }
+  },
+  {
+    "id": "cpl-16",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เรื่องอะไรที่อีกฝ่ายเคยทำให้คุณโดยที่เขาอาจคิดว่าเป็นเรื่องเล็กน้อย แต่สำหรับคุณมันมีความหมายมาก?",
+      "en": "What is something small I once did for you that meant way more to you than I probably realized?"
+    },
+    "followUp": {
+      "th": "บอกขอบคุณเขาสั้น ๆ สำหรับเรื่องนั้นกันเลย!",
+      "en": "Take a moment right now to say thank you for that memory!"
+    },
+    "illustration": "twin-hearts",
+    "intensity": 2,
+    "tags": {
+      "th": ["ความขอบคุณ", "ความใส่ใจ"],
+      "en": ["Gratitude", "Appreciation"]
+    }
+  },
+  {
+    "id": "cpl-17",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เวลาที่เรามีความเห็นไม่ตรงกัน วิธีคุยหรือการง้อแบบไหนที่ทำให้คุณใจอ่อนและพร้อมปรับความเข้าใจได้เร็วที่สุด?",
+      "en": "When we have a disagreement, what approach or gesture helps you soften and reconnect the fastest?"
+    },
+    "followUp": {
+      "th": "มีสัญญาณอะไรที่แปลว่าคุณต้องการเวลาพักใจสักแป๊บก่อนคุยต่อไหม?",
+      "en": "What signal lets me know you just need a short breather before we talk it through?"
+    },
+    "illustration": "speech-bubbles",
+    "intensity": 2,
+    "tags": {
+      "th": ["การสื่อสาร", "การปรับตัว"],
+      "en": ["Communication", "Harmony"]
+    }
+  },
+  {
+    "id": "cpl-18",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "คุณคิดว่าเราสองคนมีนิสัยข้อไหนที่เหมือนกันมาก และข้อไหนที่ต่างกันแต่เติมเต็มกันได้พอดี?",
+      "en": "In what way are we super alike, and in what way are we opposites that complement each other?"
+    },
+    "followUp": {
+      "th": "ความต่างข้อนั้นเคยช่วยแก้สถานการณ์ให้เราได้ยังไงบ้าง?",
+      "en": "How has that difference helped us balance each other out?"
+    },
+    "illustration": "high-five",
+    "intensity": 2,
+    "tags": {
+      "th": ["การเติมเต็ม", "ตัวตน"],
+      "en": ["Balance", "Synergy"]
+    }
+  },
+  {
+    "id": "cpl-19",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ในช่วงเดือนที่ผ่านมา คุณแอบชื่นชมหรือภูมิใจในตัวอีกฝ่ายเรื่องอะไรมากที่สุด?",
+      "en": "Over the past month, what is something about me that you've admired or felt proud of?"
+    },
+    "followUp": {
+      "th": "เห็นความตั้งใจอะไรของเขาที่อยากปรบมือให้ดัง ๆ?",
+      "en": "What effort have you noticed that deserves a round of applause?"
+    },
+    "illustration": "sparkles-star",
+    "intensity": 2,
+    "tags": {
+      "th": ["กำลังใจ", "ความภูมิใจ"],
+      "en": ["Admiration", "Encouragement"]
+    }
+  },
+  {
+    "id": "cpl-20",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าเรามีกฎประจำคู่รักเพิ่มขึ้นได้อีก 1 ข้อ เพื่อให้ทุกสัปดาห์มีเวลาหวาน ๆ ด้วยกัน อยากตั้งกฎว่าอะไร?",
+      "en": "If we created one new weekly couple ritual to keep things sweet, what should it be?"
+    },
+    "followUp": {
+      "th": "เช่น เดตโดยไม่จับมือถือสัปดาห์ละ 1 มื้อ หรือเดินเล่นหลังอาหารเย็น?",
+      "en": "Like one phone-free dinner date a week or an evening walk together?"
+    },
+    "illustration": "clock-time",
+    "intensity": 2,
+    "tags": {
+      "th": ["ข้อตกลงน่ารัก", "เวลาคุณภาพ"],
+      "en": ["Rituals", "Quality Time"]
+    }
+  },
+  {
+    "id": "cpl-21",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เวลาที่คุณรู้สึกกังวลกับเรื่องอนาคต คำพูดไหนของคนข้าง ๆ ที่ช่วยให้คุณอุ่นใจขึ้นเสมอ?",
+      "en": "When you feel anxious about the future, what words from me always reassure your heart?"
+    },
+    "followUp": {
+      "th": "จับมือกันแล้วบอกประโยคนั้นให้ฟังอีกครั้งได้ไหม?",
+      "en": "Hold hands and share those reassuring words right now!"
+    },
+    "illustration": "holding-hands",
+    "intensity": 2,
+    "tags": {
+      "th": ["ความมั่นคง", "กำลังใจ"],
+      "en": ["Reassurance", "Support"]
+    }
+  },
+  {
+    "id": "cpl-22",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ตั้งแต่มีกันและกันเข้ามาในชีวิต คุณรู้สึกว่าตัวเองเติบโตหรือกลายเป็นคนอ่อนโยนขึ้นในมุมไหนบ้าง?",
+      "en": "Since we've been in each other's lives, how do you feel you've grown or become gentler?"
+    },
+    "followUp": {
+      "th": "อีกฝ่ายมีส่วนช่วยให้การเปลี่ยนแปลงนั้นเกิดขึ้นได้ยังไง?",
+      "en": "How did being together inspire that positive change?"
+    },
+    "illustration": "book-story",
+    "intensity": 3,
+    "tags": {
+      "th": ["การเติบโต", "ความรัก"],
+      "en": ["Growth", "Love"]
+    }
+  },
+  {
+    "id": "cpl-23",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าลองหลับตานึกถึงภาพเราสองคนในอีก 5 ปีข้างหน้า เช้าวันธรรมดาของเราในตอนนั้นจะเป็นยังไง?",
+      "en": "If you picture the two of us 5 years from now, what does an ordinary morning together look like?"
+    },
+    "followUp": {
+      "th": "บรรยากาศบ้านหรือที่พักของเราจะมีกลิ่นอายแบบไหน?",
+      "en": "What kind of atmosphere or home do you see us sharing?"
+    },
+    "illustration": "home-cozy",
+    "intensity": 3,
+    "tags": {
+      "th": ["อนาคต", "ความฝันร่วมกัน"],
+      "en": ["Future", "Shared Dreams"]
+    }
+  },
+  {
+    "id": "cpl-24",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "อะไรคือคุณค่าหรือหัวใจสำคัญที่สุดที่คุณอยากให้เราสองคนช่วยกันรักษาไว้ไม่ว่าจะผ่านไปกี่ปี?",
+      "en": "What is the most important core value you want the two of us to protect no matter how many years pass?"
+    },
+    "followUp": {
+      "th": "เราจะช่วยกันเตือนใจเรื่องนี้ในวันยุ่ง ๆ ได้ยังไง?",
+      "en": "How can we remind each other of this even during busy seasons?"
+    },
+    "illustration": "twin-hearts",
+    "intensity": 3,
+    "tags": {
+      "th": ["คุณค่าหลัก", "ความยั่งยืน"],
+      "en": ["Core Values", "Commitment"]
+    }
+  },
+  {
+    "id": "cpl-25",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ความฝันส่วนตัวของอีกฝ่ายเรื่องไหนที่คุณอยากเห็นเขาทำสำเร็จ และพร้อมจะเป็นกองเชียร์แถวหน้าให้เสมอ?",
+      "en": "Which personal dream of mine are you most excited to cheer for from the front row?"
+    },
+    "followUp": {
+      "th": "มีอะไรที่คุณช่วยซัพพอร์ตเขาได้ตั้งแต่วันนี้เลยไหม?",
+      "en": "Is there one small way we can support that dream starting this week?"
+    },
+    "illustration": "trophy-crown",
+    "intensity": 3,
+    "tags": {
+      "th": ["ความฝัน", "การซัพพอร์ต"],
+      "en": ["Dreams", "Cheerleader"]
+    }
+  },
+  {
+    "id": "cpl-26",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ในวันที่โลกข้างนอกใจร้ายหรือหนักหนาสาหัส คุณอยากให้พื้นที่ของเรามอบความรู้สึกแบบไหนให้กันมากที่สุด?",
+      "en": "When the outside world feels overwhelming, how do you want our relationship to feel like a sanctuary?"
+    },
+    "followUp": {
+      "th": "เราสามารถสร้างสัญญาณลับเวลาต้องการกอดด่วน ๆ ได้ยังไงบ้าง?",
+      "en": "Should we invent a secret signal for 'I need a hug right now'?"
+    },
+    "illustration": "moon-stars",
+    "intensity": 3,
+    "tags": {
+      "th": ["พื้นที่ปลอดภัย", "ความเข้าใจ"],
+      "en": ["Sanctuary", "Empathy"]
+    }
+  },
+  {
+    "id": "cpl-27",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ถ้าเขียนจดหมายสั้น ๆ ถึงเราสองคนในวันครบรอบปีหน้า อยากฝากข้อความอะไรไว้ในจดหมายฉบับนั้น?",
+      "en": "If you wrote a short note to the two of us one year from today, what message would you put inside?"
+    },
+    "followUp": {
+      "th": "ปีหน้าเราอยากฉลองกันที่ไหนเป็นพิเศษ?",
+      "en": "Where would you love to celebrate together next year?"
+    },
+    "illustration": "love-letter",
+    "intensity": 3,
+    "tags": {
+      "th": ["อนาคต", "คำสัญญา"],
+      "en": ["Future Note", "Milestones"]
+    }
+  },
+  {
+    "id": "cpl-28",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ทริปในฝันสักครั้งในชีวิตที่เราอยากเก็บเงินและวางแผนไปสร้างความทรงจำด้วยกันคือที่ไหน?",
+      "en": "What is our ultimate once-in-a-lifetime bucket-list trip that we should plan together?"
+    },
+    "followUp": {
+      "th": "ภาพไฮไลต์ของทริปนั้นที่เราอยากไปยืนดูด้วยกันคือภาพอะไร?",
+      "en": "What scenery or landmark do you picture us standing in front of hand in hand?"
+    },
+    "illustration": "compass-journey",
+    "intensity": 3,
+    "tags": {
+      "th": ["เป้าหมายร่วมกัน", "ท่องเที่ยว"],
+      "en": ["Bucket List", "Travel"]
+    }
+  },
+  {
+    "id": "cpl-29",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "อะไรคือสิ่งที่ทำให้คุณมั่นใจว่า ไม่ว่าจะมีเรื่องยากแค่ไหน เราก็จะคุยกันดี ๆ และผ่านไปด้วยกันได้?",
+      "en": "What gives you confidence that no matter what challenges come our way, we'll talk Kindly and get through them?"
+    },
+    "followUp": {
+      "th": "ย้อนนึกถึงเหตุการณ์ที่เราช่วยกันแก้ปัญหามาได้ด้วยกัน!",
+      "en": "Recall a time we teamed up and solved a tough situation together!"
+    },
+    "illustration": "holding-hands",
+    "intensity": 3,
+    "tags": {
+      "th": ["ความเชื่อใจ", "ทีมเวิร์ก"],
+      "en": ["Trust", "Resilience"]
+    }
+  },
+  {
+    "id": "cpl-30",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "เมื่อเวลาผ่านไปจนเราแก่ตัวลงด้วยกัน เรื่องเล่าไหนของคู่เราที่คุณอยากหยิบมาเล่าให้คนรุ่นหลังฟังพร้อมรอยยิ้ม?",
+      "en": "When we grow old together, which story of ours will you still tell with the biggest smile?"
+    },
+    "followUp": {
+      "th": "คิดว่าตอนนั้นเรายังจะเถียงกันเรื่องกินอะไรดีอยู่ไหม?",
+      "en": "Do you think we'll still be debating what to eat for dinner?"
+    },
+    "illustration": "clock-time",
+    "intensity": 3,
+    "tags": {
+      "th": ["ความทรงจำ", "อนาคต"],
+      "en": ["Growing Old", "Memories"]
+    }
+  },
+  {
+    "id": "cpl-31",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "มีคำพูดดี ๆ หรือความรู้สึกไหนที่อยู่ในใจมาสักพัก แต่วันธรรมดามักเขินจนไม่ได้พูดออกมาตรง ๆ บ้างไหม?",
+      "en": "Is there a sweet feeling you've been holding in your heart lately that you've been too shy to say out loud?"
+    },
+    "followUp": {
+      "th": "ใช้โอกาสของการ์ดใบนี้บอกคนข้าง ๆ ได้เลย!",
+      "en": "Use this card as your excuse to say it right now!"
+    },
+    "illustration": "love-letter",
+    "intensity": 3,
+    "tags": {
+      "th": ["เปิดใจ", "ความโรแมนติก"],
+      "en": ["Heartfelt", "Romance"]
+    }
+  },
+  {
+    "id": "cpl-32",
+    "deckId": "couples",
+    "type": "question",
+    "prompt": {
+      "th": "ขอบคุณอีกฝ่าย 1 เรื่องสำหรับวันนี้ แล้วจับมือหรือกอดกัน 10 วินาทีก่อนเปิดไพ่ใบต่อไปหรือจบเกม!",
+      "en": "Thank each other for one thing today, then hold hands or hug for 10 seconds before the next card!"
+    },
+    "followUp": {
+      "th": "รอยยิ้มของคนตรงหน้าตอนนี้ให้เต็มกี่คะแนนดี?",
+      "en": "Rate your partner's smile right now out of 10!"
+    },
+    "illustration": "twin-hearts",
+    "intensity": 3,
+    "tags": {
+      "th": ["ความอบอุ่น", "ภารกิจคู่รัก"],
+      "en": ["Warmth", "Sweet Mission"]
+    }
+  }
+]
+

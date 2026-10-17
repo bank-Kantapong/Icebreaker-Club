@@ -1,0 +1,245 @@
+[
+  {
+    "id": "get-to-know",
+    "slug": "get-to-know",
+    "titleTh": "ทำความรู้จัก",
+    "titleEn": "Get to Know",
+    "badgeText": {
+      "th": "Deck 01 • เพื่อนใหม่และวงสนทนา",
+      "en": "Deck 01 • New Friends & Icebreakers"
+    },
+    "shortDescription": {
+      "th": "คำถามละลายพฤติกรรมตั้งแต่เรื่องกิน เที่ยว งานอดิเรก ไปจนถึงมุมมองชีวิต คุยง่าย ไม่เกร็ง",
+      "en": "Warm icebreakers covering food, travel, hobbies, and life stories—easygoing and never awkward."
+    },
+    "longDescription": {
+      "th": "ออกแบบมาสำหรับเพื่อนใหม่ เพื่อนร่วมงาน หรือกลุ่มคนที่อยากรู้จักกันมากกว่าแค่ชื่อและงานที่ทำ เริ่มต้นจากคำถามสบาย ๆ รอบตัว แล้วค่อย ๆ ชวนแลกเปลี่ยนเรื่องราวและแรงบันดาลใจแบบเป็นกันเอง",
+      "en": "Designed for new friends, teammates, or hangouts where you want to go beyond small talk. Start with effortless everyday topics and gradually share fun stories and perspectives."
+    },
+    "audienceLabel": {
+      "th": "เพื่อนใหม่ • เพื่อนร่วมงาน • แก๊งรวมตัว",
+      "en": "New Friends • Co-workers • Hangouts"
+    },
+    "recommendedPlayers": {
+      "th": "2–8 คน",
+      "en": "2–8 Players"
+    },
+    "coverIllustration": "coffee-chat",
+    "accentColorHex": "#9F1D2C",
+    "accentBgClass": "bg-[#FFF5F5]",
+    "accentTextClass": "text-[#9F1D2C]",
+    "accentBorderClass": "border-[#9F1D2C]",
+    "howToPlaySteps": {
+      "th": [
+        "วางมือถือไว้กลางวง หรือส่งต่อให้คนเปิดไพ่ทีละใบ",
+        "คนที่เปิดไพ่เป็นคนอ่านคำถาม แล้วตอบเป็นคนแรกก่อนส่งต่อให้เพื่อนในวงแสดงความเห็น",
+        "หากเจอคำถามที่ยังไม่สะดวกตอบ สามารถกด \"ข้ามไพ่ใบนี้\" ได้ทันทีโดยไม่ต้องอธิบายเหตุผล"
+      ],
+      "en": [
+        "Place the phone in the center of the table or pass it around turn by turn.",
+        "Draw a card, read the question out loud, and answer first before inviting others to share.",
+        "Feel free to tap \"Skip Card\" anytime if a prompt doesn't fit the vibe—no explanation needed."
+      ]
+    },
+    "intensityLevels": [
+      {
+        "level": 1,
+        "label": {
+          "th": "ระดับ 1 • อุ่นเครื่องสบาย ๆ",
+          "en": "Level 1 • Light & Easy"
+        },
+        "description": {
+          "th": "เรื่องอาหาร ไลฟ์สไตล์ และความชอบรอบตัว ตอบง่ายใน 10 วินาที",
+          "en": "Food, lifestyle, and everyday favorites you can answer in 10 seconds."
+        }
+      },
+      {
+        "level": 2,
+        "label": {
+          "th": "ระดับ 2 • เรื่องเล่าชวนคุย",
+          "en": "Level 2 • Fun Stories"
+        },
+        "description": {
+          "th": "ประสบการณ์สนุก ๆ ความทรงจำ และตัวตนที่เพื่อนอาจยังไม่เคยรู้",
+          "en": "Memorable adventures, unexpected habits, and stories friends haven't heard yet."
+        }
+      },
+      {
+        "level": 3,
+        "label": {
+          "th": "ระดับ 3 • มุมมองและแรงบันดาลใจ",
+          "en": "Level 3 • Meaningful Reflections"
+        },
+        "description": {
+          "th": "คำถามชวนคิดเรื่องความสุข ความฝัน และการเติบโตอย่างอบอุ่น",
+          "en": "Thoughtful prompts about happiness, dreams, and personal growth."
+        }
+      }
+    ]
+  },
+  {
+    "id": "couples",
+    "slug": "couples",
+    "titleTh": "คู่รักชวนคุย",
+    "titleEn": "Couples Edition",
+    "badgeText": {
+      "th": "Deck 02 • คนคุยและคนรู้ใจ",
+      "en": "Deck 02 • Dates & Partners"
+    },
+    "shortDescription": {
+      "th": "ชวนคนข้าง ๆ ย้อนความทรงจำ คุยเรื่องความชอบ ความรู้สึก และแผนในอนาคต เพื่อเติมความเข้าใจกัน",
+      "en": "Share sweet memories, love languages, and future dreams with your partner—zero drama."
+    },
+    "longDescription": {
+      "th": "ไม่ว่าจะเพิ่งเริ่มเดตกัน หรือคบกันมานานหลายปี สำรับนี้จะช่วยเปิดพื้นที่ปลอดภัยให้ทั้งคู่ได้แชร์ความประทับใจ ขอบคุณเรื่องเล็ก ๆ ของกันและกัน และออกแบบความสัมพันธ์ที่อบอุ่นยิ่งขึ้น",
+      "en": "Whether it's your first date or your fifth anniversary, this deck creates a warm space to appreciate little moments, understand each other deeply, and dream together."
+    },
+    "audienceLabel": {
+      "th": "คนคุย • คู่เดต • คู่รักทุกช่วงวัย",
+      "en": "Crushes • Date Night • Couples"
+    },
+    "recommendedPlayers": {
+      "th": "2 คน",
+      "en": "2 Players"
+    },
+    "coverIllustration": "twin-hearts",
+    "accentColorHex": "#B91C1C",
+    "accentBgClass": "bg-[#FFF1F2]",
+    "accentTextClass": "text-[#B91C1C]",
+    "accentBorderClass": "border-[#B91C1C]",
+    "howToPlaySteps": {
+      "th": [
+        "สลับกันเปิดไพ่คนละใบ แล้วผลัดกันตอบทั้งสองคนในข้อเดียวกัน",
+        "ฟังอีกฝ่ายให้จบด้วยความเข้าใจ ไม่ตัดสิน และใช้คำถามต่อยอดบนการ์ดเพื่อคุยกันต่อ",
+        "ข้ามคำถามได้เสมอหากยังไม่พร้อมคุยเรื่องนั้นในวันนี้"
+      ],
+      "en": [
+        "Take turns drawing a card and both answer the same prompt together.",
+        "Listen with warmth and curiosity, using the follow-up prompt to keep the conversation flowing.",
+        "You can always skip any card you want to save for another day."
+      ]
+    },
+    "safetyNotice": {
+      "th": "สำรับนี้ออกแบบเพื่อสร้างความเข้าใจเชิงบวก ไม่มีคำถามจับผิดหรือบังคับเปิดเผยความลับ และทั้งคู่สามารถข้ามไพ่ได้ทุกเมื่อ",
+      "en": "Designed for positive connection—no gotcha questions or forced secrets. Both partners can skip any card at any time."
+    },
+    "intensityLevels": [
+      {
+        "level": 1,
+        "label": {
+          "th": "ระดับ 1 • น่ารักกุ๊กกิ๊ก",
+          "en": "Level 1 • Sweet & Playful"
+        },
+        "description": {
+          "th": "ความประทับใจแรก เดตในฝัน และนิสัยเล็ก ๆ ที่เห็นแล้วอดยิ้มไม่ได้",
+          "en": "First impressions, dream dates, and adorable everyday quirks."
+        }
+      },
+      {
+        "level": 2,
+        "label": {
+          "th": "ระดับ 2 • เข้าใจกันมากขึ้น",
+          "en": "Level 2 • Deeper Connection"
+        },
+        "description": {
+          "th": "ภาษารัก วิธีดูแลใจกันเวลาเหนื่อย และเรื่องที่อยากทำร่วมกัน",
+          "en": "Love languages, supporting each other on tough days, and shared bucket lists."
+        }
+      },
+      {
+        "level": 3,
+        "label": {
+          "th": "ระดับ 3 • หัวใจและอนาคต",
+          "en": "Level 3 • Heart & Future"
+        },
+        "description": {
+          "th": "ความหมายของความสัมพันธ์ การเติบโตไปด้วยกัน และภาพอนาคตของเรา",
+          "en": "Core values, growing together, and envisioning your future side by side."
+        }
+      }
+    ]
+  },
+  {
+    "id": "party-drinks",
+    "slug": "party-drinks",
+    "titleTh": "ปาร์ตี้ & ชนแก้ว",
+    "titleEn": "Party & Drinks",
+    "badgeText": {
+      "th": "Deck 03 • สังสรรค์และมินิเกมหน้าวง",
+      "en": "Deck 03 • Party & Group Mini-Games"
+    },
+    "shortDescription": {
+      "th": "ภารกิจสั้น ๆ โหวตหน้าวง และกติกาสุดฮาที่อ่านปุ๊บเข้าใจปั๊บ เล่นสนุกได้ทั้งสายชนแก้วและสายจิบน้ำอัดลม",
+      "en": "Quick dares, group votes, and hilarious table rules—fun with any drink, alcoholic or non-alcoholic."
+    },
+    "longDescription": {
+      "th": "ปลุกบรรยากาศโต๊ะอาหาร ทริปต่างจังหวัด หรือปาร์ตี้บ้านเพื่อนให้คึกคักด้วยการ์ดภารกิจและโหวตกลุ่ม เน้นเสียงหัวเราะและส่วนร่วมของทุกคนโดยไม่บังคับดื่มหนักและไม่ล่วงละเมิดพื้นที่ส่วนตัว",
+      "en": "Turn up the energy at dinner tables, road trips, or house parties with instant group votes and mini-challenges. Built for laughs, respect, and zero pressure."
+    },
+    "audienceLabel": {
+      "th": "แก๊งเพื่อน • โต๊ะปาร์ตี้ • ทริปท่องเที่ยว",
+      "en": "Friend Groups • Parties • Road Trips"
+    },
+    "recommendedPlayers": {
+      "th": "3–12 คน",
+      "en": "3–12 Players"
+    },
+    "coverIllustration": "cheers-glasses",
+    "accentColorHex": "#7F1D1D",
+    "accentBgClass": "bg-[#FEF2F2]",
+    "accentTextClass": "text-[#7F1D1D]",
+    "accentBorderClass": "border-[#7F1D1D]",
+    "howToPlaySteps": {
+      "th": [
+        "เตรียมเครื่องดื่มที่ชอบไว้ข้างตัว (เป็นน้ำเปล่า น้ำผลไม้ ม็อกเทล หรือเครื่องดื่มใดก็ได้ตามสะดวก)",
+        "ผลัดกันเปิดไพ่ตามเข็มนาฬิกา แล้วทำตามภารกิจหรือเปิดโหวตพร้อมกันในวง",
+        "เคารพความสมัครใจของเพื่อนเสมอ สามารถเปลี่ยนจากการจิบเครื่องดื่มเป็นทำท่าทางตลก ๆ หรือข้ามไพ่ได้ทันที"
+      ],
+      "en": [
+        "Grab your favorite beverage (water, soda, mocktail, or any drink you enjoy).",
+        "Take turns drawing cards clockwise and follow the quick mission or group vote.",
+        "Always respect everyone's comfort—swap any sip for a goofy pose or skip the card anytime."
+      ]
+    },
+    "safetyNotice": {
+      "th": "เล่นอย่างรับผิดชอบและให้เกียรติเพื่อนในวง: ไม่บังคับดื่มแอลกอฮอล์ ใช้การจิบน้ำหรือทำภารกิจฮา ๆ แทนได้ทุกใบ และข้ามไพ่ได้ตลอดเวลา",
+      "en": "Play responsibly and respect boundaries: no forced alcohol consumption—substitute water or fun gestures on any card, and skip freely."
+    },
+    "intensityLevels": [
+      {
+        "level": 1,
+        "label": {
+          "th": "ระดับ 1 • อุ่นเครื่องหน้าวง",
+          "en": "Level 1 • Party Warm-Up"
+        },
+        "description": {
+          "th": "เช็กชื่อชนแก้วและคำถามไว ๆ เรียกเสียงหัวเราะตั้งแต่ใบแรก",
+          "en": "Quick roll-call toasts and fast prompts to get everyone laughing."
+        }
+      },
+      {
+        "level": 2,
+        "label": {
+          "th": "ระดับ 2 • โหวตฮาประจานเพื่อนรัก",
+          "en": "Level 2 • Group Votes & Roasts"
+        },
+        "description": {
+          "th": "ชี้ตัวเพื่อนในวงและมินิเกมวัดใจที่ทุกคนได้มีส่วนร่วม",
+          "en": "Friendly group votes and quick table challenges where everyone participates."
+        }
+      },
+      {
+        "level": 3,
+        "label": {
+          "th": "ระดับ 3 • ตัวตึงประจำวง",
+          "en": "Level 3 • Showstopper Wildcards"
+        },
+        "description": {
+          "th": "ภารกิจแสดงออกสุดฮา แข่งจ้องตา และกติกาพิเศษประจำรอบ",
+          "en": "Hilarious roleplay missions, staring contests, and special round rules."
+        }
+      }
+    ]
+  }
+]
+

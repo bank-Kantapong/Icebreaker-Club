@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "mainMenuAria": "เมนูหลัก",
+    "chooseDeck": "เลือกกองไพ่",
+    "backToHome": "กลับหน้าแรก (เลือกกองไพ่ทั้งหมด)",
+    "languageToggleAria": "สลับภาษา"
+  },
+  "home": {
+    "title": "เลือกสำรับไพ่ แล้วเริ่มคุยกันเลย",
+    "howToAria": "วิธีเล่นง่าย ๆ 3 ขั้นตอน",
+    "step1": "เลือกสำรับ",
+    "step2": "แตะจั่วไพ่",
+    "step3": "ชวนคุยหรือข้ามได้ตลอด",
+    "decksSectionAria": "เลือกกองไพ่",
+    "startDeckAriaPrefix": "เริ่มเล่นสำรับ",
+    "cardUnit": "ใบ",
+    "tapToDraw": "แตะเพื่อจั่วไพ่"
+  },
+  "deckDetail": {
+    "totalCards": "ทั้งหมด",
+    "playersPrefix": "ผู้เล่น",
+    "startNowAllLevels": "เริ่มเล่นทันที (ครบทุกระดับ)",
+    "setupTitle": "ตั้งค่ารอบการเล่น",
+    "setupSubtitle": "เลือกระดับความเข้มข้นของคำถามหรือภารกิจที่เหมาะกับบรรยากาศในวงตอนนี้",
+    "readyToPlay": "พร้อมเล่น",
+    "intensityGroupAria": "เลือกระดับความเข้มข้นของไพ่",
+    "allIntensitiesLabel": "รวมทุกระดับ (แนะนำ)",
+    "allIntensitiesDesc": "สุ่มผสมครบทุกระดับตั้งแต่เบา ๆ ไปจนถึงคำถามและภารกิจไฮไลต์",
+    "shuffleNote": "ระบบจะสับไพ่ใหม่ทุกครั้งและไม่แสดงไพ่ซ้ำภายในรอบเดียวกัน",
+    "startDeckWithCount": "เริ่มเล่นกองนี้",
+    "howToPlayPrefix": "วิธีเล่นสำรับ",
+    "etiquetteLabel": "กติกามารยาทประจำวง: "
+  },
+  "game": {
+    "roundPrefix": "รอบที่",
+    "cardBackTapHint": "Tap Deck to Draw",
+    "cardBackTitle": "แตะที่ไพ่เพื่อเปิดใบแรก",
+    "revealCard": "เปิดไพ่ใบนี้",
+    "skipCard": "ข้ามไพ่ใบนี้",
+    "nextCard": "ไพ่ใบถัดไป →",
+    "finishRound": "สรุปจบรอบ →",
+    "reshuffleRound": "↻ สับไพ่เริ่มรอบใหม่",
+    "followUpLabel": "ชวนคุยต่อ: ",
+    "cardTypes": {
+      "question": "คำถามชวนคุย",
+      "mission": "ภารกิจหน้าวง",
+      "vote": "โหวตพร้อมกัน",
+      "wildcard": "กติกาพิเศษ"
+    },
+    "intensities": {
+      "1": "ระดับ 1 • เบา ๆ",
+      "2": "ระดับ 2 • กำลังดี",
+      "3": "ระดับ 3 • เข้มข้น"
+    }
+  },
+  "roundComplete": {
+    "badgePrefix": "จั่วครบทุกใบในรอบที่",
+    "badgeSuffix": "แล้ว!",
+    "titlePrefix": "จบสำรับ",
+    "titleSuffix": "รอบนี้",
+    "summaryPrefix": "เปิดไพ่คุยกันไปทั้งหมด",
+    "skippedPrefix": "ข้าม",
+    "playAgainButton": "สับไพ่เริ่มรอบใหม่",
+    "chooseAnotherDeck": "เลือกกองไพ่อื่น"
+  },
+  "emptyDeck": {
+    "title": "ไม่พบไพ่ในตัวเลือกนี้",
+    "subtitle": "ลองแสดงไพ่ทุกระดับ หรือกลับไปเลือกสำรับอื่น",
+    "showAllButton": "แสดงไพ่ทุกระดับ",
+    "backToDecksButton": "กลับหน้าเลือกสำรับ"
+  },
+  "share": {
+    "shareDeckButton": "แชร์กองไพ่นี้ให้เพื่อน",
+    "shareDeckTitlePrefix": "ชวนเล่นไพ่สำรับ",
+    "shareDeckTextPrefix": "มาเปิดไพ่ชวนคุยสำรับ",
+    "shareDeckTextSuffix": "ด้วยกัน! เล่นฟรีบนเว็บได้เลย",
+    "shareDeckSuccess": "แชร์สำรับไพ่เรียบร้อย!",
+    "copiedLink": "คัดลอกลิงก์กองไพ่แล้ว!",
+    "fallbackLinkPrefix": "ลิงก์สำหรับแชร์:",
+    "saveCardImageButton": "บันทึกรูปการ์ดคำถาม",
+    "generatingStory": "กำลังสร้างรูปการ์ด...",
+    "downloadStorySuccess": "บันทึกรูปการ์ดลงเครื่องแล้ว!",
+    "shareStoryError": "ไม่สามารถสร้างรูปการ์ดได้ ลองใหม่อีกครั้ง",
+    "storyWatermarkCta": "มาตอบคำถามนี้ด้วยกันที่"
+  },
+  "notFound": {
+    "badge": "404 • Card Not Found",
+    "title": "ไม่พบกองไพ่หรือหน้าที่คุณต้องการ",
+    "subtitle": "ลิงก์อาจพิมพ์ไม่ถูกต้อง หรือสำรับไพ่นี้ไม่มีอยู่ในระบบ ลองกลับไปเลือกสำรับไพ่ทั้งหมดที่หน้าแรกได้เลย",
+    "backHome": "กลับไปหน้าแรก"
+  }
+}
