@@ -1,181 +1,110 @@
-# Icebreaker Club — เว็บเกมไพ่ชวนคุย 2 ภาษา (Free Bilingual Icebreaking Card Game Platform)
+# 🎴 Icebreaker Club — Spark Conversations & Break the Ice
 
-เว็บเกมไพ่ชวนคุยสำหรับเพื่อนใหม่ คนรัก และกลุ่มปาร์ตี้สังสรรค์ รองรับ **2 ภาษา (ไทย / อังกฤษ)** เปิดเว็บ เลือกกองไพ่ เปิดไพ่คำถามหรือภารกิจ บันทึกรูปการ์ดคำถามลงโซเชียล และเล่นต่อได้ทันทีโดยไม่ต้องสมัครสมาชิก ฟรี 100% ไม่มีโฆษณาคั่น ไม่ใช้ AI API ระหว่างเล่น และไม่มีฐานข้อมูลหรือบริการที่เสียค่าใช้จ่าย
-
----
-
-## 1. ฟีเจอร์หลัก (Key Features)
-
-- **3 กองไพ่พร้อมเล่น รองรับ 2 ภาษา `TH | EN` (รวม 96 ใบ ไม่ซ้ำกัน)**:
-  - **ทำความรู้จัก / Get to Know (`get-to-know`)** — 32 ใบ สำหรับเพื่อนใหม่ เพื่อนร่วมงาน หรือกลุ่มที่อยากเริ่มบทสนทนาอย่างเป็นธรรมชาติ
-  - **คู่รักชวนคุย / Couples Edition (`couples`)** — 32 ใบ สำหรับคนคุย คู่เดต และคู่รัก เน้นความเข้าใจเชิงบวกโดยไม่สร้างความขัดแย้ง
-  - **ปาร์ตี้ & ชนแก้ว / Party & Drinks (`party-drinks`)** — 32 ใบ สำหรับวงสังสรรค์ มีทั้งภารกิจสั้น ๆ โหวตหน้าวง และกติกาพิเศษ รองรับทั้งสายดื่มและสายจิบน้ำเปล่า/ทำท่าทางแทน
-- **ข้อมูลทั้งหมดจัดเก็บในรูปแบบไฟล์ JSON (`src/content/data/`)**: แก้ไขหรือเพิ่มเติมคำถามและคำแปลได้ง่าย พร้อมสคริปต์ตรวจสอบความถูกต้องอัตโนมัติ
-- **บันทึกรูปการ์ดคำถามสำหรับ IG Story / โซเชียลมีเดีย (`1080×1920`)**:
-  - วาดภาพการ์ดคำถามความละเอียดสูงด้วย HTML5 Canvas 2D โดยแสดงเฉพาะกรอบการ์ด ภาพประกอบ และข้อความคำถามหลักที่ตัดบรรทัดภาษาไทย/อังกฤษอย่างสวยงาม (`Intl.Segmenter`) พร้อมบันทึกเป็นไฟล์ `.png` ลงเครื่องทันที
-- **Pure Game Engine ที่ทดสอบได้ 100%**:
-  - สับไพ่ด้วยอัลกอริทึม Fisher–Yates Shuffle ที่รองรับการส่งฟังก์ชัน PRNG เข้าไปทดสอบ
-  - ไม่แสดงข้อมูลของไพ่ใบถัดไปล่วงหน้าก่อนกดเปิดไพ่
-  - ป้องกันไพ่ซ้ำภายในรอบเดียวกัน 100%
-  - ข้ามไพ่ (`Skip`) ได้ทุกใบโดยไม่นำไพ่ที่ข้ามกลับมาเล่นซ้ำในรอบเดิม
-  - เริ่มรอบใหม่ (`Reset`) เพื่อสับไพ่ใหม่ทันทีโดยไม่ต้องรีโหลดหน้าเว็บ
-- **Visual Design System (Cute Minimal & Tactile Card Deck)**:
-  - พื้นหลังสีครีมอบอุ่น (`#FAF7F2`) ตัดกับสีแดงเข้ม (`#9F1D2C`) และลายเส้นสีชาร์โคล (`#1C1917`)
-  - การ์ดมีความสูงคงที่ (`h-97.5 sm:h-102.5`) และจำกัดคำถามบนหน้าเว็บสูงสุด 4 บรรทัด (`line-clamp-4`) เพื่อไม่ให้ปุ่มควบคุมกระโดด
-  - ชุดภาพประกอบลายเส้นขาวดำต้นฉบับ 24 ไฟล์ (`public/illustrations/*.svg`) ขนาดรวมทั้งหมดเพียง ~11.70 KB (เฉลี่ยไฟล์ละ ~0.5 KB ต่ำกว่างบ 10 KB ต่อไฟล์มาก)
-  - แอนิเมชันจั่วและพลิกไพ่ด้วย CSS 3D Transform ที่เคารพค่า `prefers-reduced-motion`
+> **"Spark meaningful conversations, deepen connections, and bring genuine laughter to every table."**
+> 
+> A free, bilingual (**Thai / English**) digital card game playable directly in your browser. Zero downloads, no sign-ups, no ads, and 100% free forever.
 
 ---
 
-## 2. โครงสร้างโปรเจกต์ (Project Structure)
+## 🌟 The Vision Behind Icebreaker Club
+
+Have you ever experienced moments like these?
+- Sitting with new friends or colleagues where awkward silence takes over, and nobody knows what to ask next.
+- On a date or hanging out with your partner, looking for thoughtful questions that uncover new perspectives without causing drama.
+- At a house party or road trip, searching for a quick, inclusive game where everyone can join in without peer pressure.
+
+**Icebreaker Club** was created as a welcoming, judgment-free space to ignite memorable conversations. Just open the website, place your phone in the middle of the table (or pass it around), draw a card, and let the stories flow in seconds.
+
+---
+
+## 🎯 3 Thoughtfully Curated Decks (96 Bilingual Cards)
+
+All cards are stored as structured bilingual JSON data (`TH` and `EN`), crafted to match three distinct social vibes:
+
+### 1. ☕ Get to Know (`get-to-know`) — 32 Cards
+*For new friends, teammates, dinner meetups, or any group breaking the ice.*
+- **Themes**: Comfort food, dream weekend mornings, bucket-list travel, formative memories, creative hobbies, and gentle philosophical reflections.
+- **Tone**: Warm, approachable, easy to answer, and strictly non-intrusive.
+
+### 2. ❤️ Couples Edition (`couples`) — 32 Cards
+*For dating partners, couples, or long-time companions seeking deeper intimacy.*
+- **Themes**: First impressions, cherished micro-moments, love languages, how to comfort each other on tough days, and shared dreams for the future.
+- **Tone**: Positive, tender, safe, with zero trap questions or forced confessions.
+
+### 3. 🍻 Party & Drinks (`party-drinks`) — 32 Cards
+*For social gatherings, house parties, game nights, and road trips.*
+- **Themes**: Fast-paced group votes, lighthearted dares, mini-challenges, and hilarious confessions.
+- **Inclusivity & Safety**: Non-drinkers are fully embraced. Anyone can substitute a sip with water, soda, or a funny gesture—and every card can be skipped without explanation.
+
+---
+
+## ✨ Key Highlights & Features
+
+- ⚡ **Zero-Friction Minimal UX**: Clean, distraction-free landing page with an immediate 3-step guide and tactile deck covers. Tap and play within seconds.
+- 🌐 **Instant Bilingual Toggle (`TH | EN`)**: Seamlessly switch between Thai and English at any time from the top navigation bar. Every prompt, button, and deck description updates instantaneously.
+- 🎚️ **Adjustable Intensity Filters**: Tailor the mood of your gathering with 3 intensity levels (*Level 1: Chill Warm-up*, *Level 2: Story Starters*, *Level 3: Deeper Reflections/Party Energy*) or shuffle *All Levels Mixed*.
+- 📸 **Downloadable Story Cards (Social-Ready)**: Love a particular prompt? Tap **"⬇ Save Card Image"** to instantly generate and download a clean, high-resolution story card (`1080×1920 px`). Perfectly formatted with native Thai/English hyphenation (`Intl.Segmenter`) for Instagram Stories, Facebook, or group chats.
+- 🃏 **Tactile Physical Card Feel**:
+  - Handcrafted warm editorial aesthetics with cream backgrounds (`#FAF7F2`), deep crimson accents (`#9F1D2C`), and charcoal ink (`#1C1917`).
+  - 24 custom hand-drawn black & white SVG illustrations totaling just ~11.7 KB.
+  - Smooth 3D draw-and-flip card animations with full support for `prefers-reduced-motion`.
+  - Constant card heights and a 4-line prompt clamp to ensure buttons never jump unexpectedly on mobile screens.
+- 🔒 **Privacy-First & Completely Free**: Zero user tracking, no database, no logins, and zero AI inference cost during gameplay. Blazing fast, static-ready, and lightweight.
+
+---
+
+## 🎮 How to Play in 3 Simple Steps
 
 ```text
-src/
-  app/
-    layout.tsx                        # Root Layout, Noto Sans Thai font, I18nProvider, SEO metadata
-    page.tsx                          # Home Page (HowToBanner + 3 Deck Covers)
-    not-found.tsx                     # หน้า 404 (Bilingual)
-    sitemap.ts                        # Dynamic Sitemap
-    robots.ts                         # Dynamic robots.txt
-    decks/[slug]/page.tsx             # Deck Detail & Game Setup Page
-    play/[slug]/page.tsx              # Playing Screen
-  components/
-    layout/
-      Header.tsx                      # แถบเมนูด้านบนพร้อมปุ่มสลับภาษา
-      LanguageSwitcher.tsx            # ปุ่มสลับภาษา TH | EN
-      HowToBanner.tsx                 # แถบวิธีเล่น 3 ขั้นตอนสั้น ๆ
-      Footer.tsx
-    deck/
-      BackToHomeLink.tsx
-      DeckCard.tsx
-      DeckOverviewHero.tsx
-      DeckSetupPanel.tsx
-      DeckRulesCard.tsx
-      ShareDeckButton.tsx
-    game/
-      GameBoard.tsx
-      PlayingCard.tsx
-      PlayingCardBack.tsx
-      PlayingCardFront.tsx
-      GameControls.tsx
-      ShareCardStoryButton.tsx        # ปุ่มบันทึกรูปการ์ดคำถาม .png
-      RoundCompleteView.tsx
-      EmptyDeckView.tsx
-      __tests__/userFlow.test.tsx     # Integration / i18n / Line-wrap Tests
-    ui/
-      CardIllustration.tsx
-  features/
-    game/
-      shuffle.ts                      # Fisher-Yates shuffle + Seeded PRNG
-      drawCard.ts                     # Filter, Draw, Skip, Remaining calculation
-      gameState.ts                    # Session initialization & Reset logic
-      __tests__/gameEngine.test.ts    # Game Engine Unit Tests
-  i18n/
-    I18nProvider.tsx                  # Bilingual Context Provider (th | en)
-    locales/
-      th.json                         # คำแปล UI ภาษาไทย
-      en.json                         # คำแปล UI ภาษาอังกฤษ
-  content/
-    data/
-      illustrations.json              # ข้อมูลภาพประกอบ 24 ชิ้น (TH/EN)
-      decks.json                      # ข้อมูล 3 กองไพ่หลัก (TH/EN)
-      cards/
-        get-to-know.json              # 32 ใบ (กองทำความรู้จัก TH/EN)
-        couples.json                  # 32 ใบ (กองคู่รัก TH/EN)
-        party-drinks.json             # 32 ใบ (กองปาร์ตี้ TH/EN)
-    illustrations.ts                  # Typed Illustration Registry
-    decks.ts                          # Typed Deck Registry
-    cards/
-      get-to-know.ts
-      couples.ts
-      party-drinks.ts
-      index.ts                        # Unified Card Registry (รวม 96 ใบ)
-  lib/
-    brand.ts                          # ข้อมูลแบรนด์ (เปลี่ยนชื่อโปรเจกต์ได้ที่นี่)
-    url.ts                            # Helper สำหรับอ่าน NEXT_PUBLIC_SITE_URL
-    shareCardImage.ts                 # HTML5 Canvas Story Card Image Generator
-  types/
-    game.ts                           # Strict TypeScript Types
-public/
-  illustrations/                      # ไฟล์ภาพประกอบขาวดำ SVG 24 ไฟล์
-scripts/
-  validate-assets.mjs                 # สคริปต์ตรวจสอบไฟล์ SVG, ขนาดไฟล์ และข้อมูลไพ่ JSON 2 ภาษา
-docs/
-  PRODUCT_SPEC.md                     # เอกสารข้อกำหนดผลิตภัณฑ์
-  ARCHITECTURE.md                     # เอกสารสถาปัตยกรรมระบบ
-  ASSET_GUIDELINES.md                 # แนวทางและการตรวจสอบภาพประกอบ
-AGENTS.md                             # กฎการทำงานและมาตรฐานโค้ดสำหรับนักพัฒนา/AI Agent
+  [ 1. Pick a Deck ]  ──>  [ 2. Tap to Draw ]  ──>  [ 3. Chat or Skip Anytime ]
 ```
+
+1. **Pick a Deck**: Choose the deck that matches your group's current vibe (*Get to Know*, *Couples*, or *Party & Drinks*).
+2. **Tap to Reveal**: The person who draws reads the card out loud and shares their answer first, then opens the floor to the group.
+3. **Skip Without Pressure**: If anyone feels hesitant or uncomfortable with a question, simply tap **"Skip This Card"**—no justification needed.
 
 ---
 
-## 3. วิธีติดตั้งและรันในเครื่อง (Local Development)
+## 🛠️ The Tech Stack
 
-### ข้อกำหนดเบื้องต้น
-- **Node.js**: เวอร์ชัน 18.18+ หรือ 20+ / 22+ / 24+
-- **npm**: เวอร์ชัน 9+
+Engineered using a modern, static-first architecture for maximum speed, resilience, and free-tier hosting:
 
-### ขั้นตอนการติดตั้งและรัน
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router, Server Components & Static Site Generation)
+- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Game Engine**: Pure TypeScript Functions (Fisher–Yates Shuffle with deterministic seeded PRNG testing)
+- **Data & Localization**: Clean JSON data (`src/content/data/`) + Hydration-safe React Context I18n Provider
+- **Canvas Rendering**: HTML5 Canvas 2D API for high-resolution 9:16 story card export
+- **Testing & Quality Gates**: [Vitest](https://vitest.dev/), React Testing Library, ESLint
+
+---
+
+## 💻 Getting Started (Local Development)
+
+Interested in exploring the codebase or contributing?
+
+### Prerequisites
+- **Node.js**: `18.18+` or `20+` / `22+` / `24+`
+- **npm**: `9+`
+
+### Installation & Run
+
 ```bash
-# 1. ติดตั้ง Dependencies
+# 1. Clone the repository
+git clone https://github.com/your-username/ice-breaker-club.git
+cd ice-breaker-club
+
+# 2. Install dependencies
 npm install
 
-# 2. รันเซิร์ฟเวอร์สำหรับพัฒนา (Development Server)
+# 3. Start development server
 npm run dev
 ```
-เปิดเบราว์เซอร์ไปที่ `http://localhost:3000`
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 4. คำสั่งตรวจสอบคุณภาพและทดสอบ (Quality Gates & Testing)
+## 📄 License & Community
 
-```bash
-# ตรวจสอบคุณภาพโค้ดด้วย ESLint
-npm run lint
-
-# ตรวจสอบความถูกต้องของชนิดข้อมูลด้วย TypeScript Strict Mode
-npm run typecheck
-
-# รัน Unit Tests และ User Flow Tests ทั้งหมดด้วย Vitest
-npm run test
-
-# ตรวจสอบไฟล์ภาพประกอบ SVG และข้อมูลไพ่ JSON 2 ภาษา
-npm run validate:assets
-
-# สร้าง Production Build
-npm run build
-
-# รัน Production Server หลัง Build
-npm run start
-```
-
----
-
-## 5. ตัวแปรสภาพแวดล้อม (Environment Variables)
-
-โปรเจกต์นี้ **ไม่จำเป็นต้องตั้งค่า API Key หรือตัวแปรสภาพแวดล้อมใด ๆ เพื่อเล่นเกมพื้นฐาน**
-
-หากต้องการกำหนด Canonical URL สำหรับ SEO และ Sitemap บน Production Domain สามารถตั้งค่าตัวแปร (Optional) ดังนี้:
-
-```env
-NEXT_PUBLIC_SITE_URL=https://your-domain.example.com
-```
-
----
-
-## 6. ขั้นตอนการ Deploy แบบฟรี (Free Tier Deployment Guide)
-
-โปรเจกต์นี้ออกแบบให้เป็น Static / Pre-rendered Next.js App ที่ไม่มีฐานข้อมูลและไม่มี Paid API จึงสามารถ Deploy บนบริการ Free Tier ได้ทันที
-
-### ทางเลือกที่ 1: Deploy บน Vercel (Hobby / Free Plan)
-1. อัปโหลดโค้ดขึ้น GitHub, GitLab หรือ Bitbucket Repository ของคุณ
-2. ล็อกอินเข้าสู่ระบบ [Vercel](https://vercel.com) แล้วกด **Add New... -> Project**
-3. เลือก Repository `ice-breaker-club`
-4. ค่าเริ่มต้นจะถูกตั้งเป็น **Framework Preset: Next.js**, **Build Command: `npm run build`**, **Output Directory: `.next`**
-5. (ทางเลือก) ตั้งค่า Environment Variable `NEXT_PUBLIC_SITE_URL` เป็น URL ของโปรเจกต์
-6. กด **Deploy**
-
-### ทางเลือกที่ 2: Deploy บน Cloudflare Pages หรือ Netlify (Free Tier)
-1. เชื่อมต่อ Git Repository เข้ากับ Cloudflare Pages หรือ Netlify
-2. ตั้งค่า Build Command เป็น `npm run build`
-3. หากต้องการส่งออกเป็น Static HTML ล้วน (Static Export) สามารถเพิ่ม `output: 'export'` ใน `next.config.ts` แล้วใช้โฟลเดอร์ `out/` ในการอัปโหลดได้ทันที เนื่องจากทุกเส้นทาง (`/`, `/decks/[slug]`, `/play/[slug]`) รองรับ `generateStaticParams` ครบถ้วน
+Icebreaker Club is free and open for personal and community use. Built with ❤️ to bring people closer, one conversation at a time.
