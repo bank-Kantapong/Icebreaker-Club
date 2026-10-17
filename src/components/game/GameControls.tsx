@@ -32,7 +32,7 @@ export function GameControls({
         <button
           type="button"
           onClick={onSkip}
-          className="tactile-btn rounded-2xl bg-[#FAF7F2] px-4 py-3 text-sm font-bold text-[#1C1917] cursor-pointer"
+          className="tactile-btn rounded-2xl bg-warm-bg px-4 py-3 text-sm font-bold text-ink-charcoal cursor-pointer"
         >
           {t.game.skipCard}
         </button>
@@ -40,7 +40,7 @@ export function GameControls({
         <button
           type="button"
           onClick={onRevealOrNext}
-          className="tactile-btn rounded-2xl bg-[#9F1D2C] px-4 py-3 text-sm font-extrabold text-[#FFFDF9] cursor-pointer"
+          className="tactile-btn rounded-2xl bg-accent-crimson px-4 py-3 text-sm font-extrabold text-warm-card cursor-pointer"
         >
           {!isCurrentCardRevealed
             ? t.game.revealCard
@@ -54,7 +54,7 @@ export function GameControls({
         <button
           type="button"
           onClick={onResetRound}
-          className="rounded-lg px-2 py-1 text-xs font-bold text-[#57534E] underline-offset-4 hover:text-[#1C1917] hover:underline cursor-pointer"
+          className="rounded-lg px-2 py-1 text-xs font-bold text-ink-muted underline-offset-4 hover:text-ink-charcoal hover:underline cursor-pointer"
         >
           {t.game.reshuffleRound}
         </button>

@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --color-warm-bg: var(--bg-warm);
+  --color-warm-card: var(--bg-card);
+  --color-ink-charcoal: var(--ink-charcoal);
+  --color-ink-muted: var(--ink-muted);
+  --color-accent-crimson: var(--accent-crimson);
+  --color-accent-crimson-hover: var(--accent-crimson-hover);
+  --color-accent-crimson-soft: var(--accent-crimson-soft);
+  --color-border-ink: var(--border-ink);
+}
+
 :root {
   --bg-warm: #FAF7F2;
   --bg-card: #FFFDF9;
@@ -7,6 +18,7 @@
   --ink-muted: #57534E;
   --accent-crimson: #9F1D2C;
   --accent-crimson-hover: #7F1D1D;
+  --accent-crimson-soft: #FFF5F5;
   --border-ink: #1C1917;
 }
 
@@ -125,7 +137,7 @@ body {
 
 /* Physical Card Back Pattern (Subtle dot matrix) */
 .card-back-pattern {
-  background-color: #9F1D2C;
+  background-color: var(--accent-crimson);
   background-image: radial-gradient(rgba(255, 253, 249, 0.22) 1.25px, transparent 1.25px);
   background-size: 14px 14px;
 }

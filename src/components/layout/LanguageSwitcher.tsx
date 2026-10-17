@@ -9,7 +9,7 @@ export function LanguageSwitcher() {
     <div
       role="group"
       aria-label={t.nav.languageToggleAria}
-      className="inline-flex items-center rounded-xl border border-[#1C1917]/25 bg-[#FFFDF9] p-0.5 text-xs font-extrabold"
+      className="inline-flex items-center rounded-xl border border-border-ink/25 bg-warm-card p-0.5 text-xs font-extrabold"
     >
       <button
         type="button"
@@ -17,8 +17,8 @@ export function LanguageSwitcher() {
         aria-pressed={locale === 'th'}
         className={`rounded-lg px-2.5 py-1 transition cursor-pointer ${
           locale === 'th'
-            ? 'bg-[#9F1D2C] text-[#FFFDF9]'
-            : 'text-[#57534E] hover:text-[#1C1917]'
+            ? 'bg-accent-crimson text-warm-card'
+            : 'text-ink-muted hover:text-ink-charcoal'
         }`}
       >
         TH
@@ -29,8 +29,8 @@ export function LanguageSwitcher() {
         aria-pressed={locale === 'en'}
         className={`rounded-lg px-2.5 py-1 transition cursor-pointer ${
           locale === 'en'
-            ? 'bg-[#9F1D2C] text-[#FFFDF9]'
-            : 'text-[#57534E] hover:text-[#1C1917]'
+            ? 'bg-accent-crimson text-warm-card'
+            : 'text-ink-muted hover:text-ink-charcoal'
         }`}
       >
         EN
@@ -38,4 +38,3 @@ export function LanguageSwitcher() {
     </div>
   );
 }
-
